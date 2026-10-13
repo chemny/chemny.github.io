@@ -1,0 +1,292 @@
+{
+  "profile": {
+    "name": "Neo Chen",
+    "github": "https://github.com/chemny",
+    "intro": "探索 AI 与创造的交汇处，把想法做成有用的作品。"
+  },
+  "projects": [
+    {
+      "description": "Build editable Three.js models from reference images with reproducible geometry, visual review, and GLB export.",
+      "html_url": "https://github.com/chemny/image-to-3d",
+      "language": "Python",
+      "name": "image-to-3d",
+      "topics": []
+    },
+    {
+      "description": "Local-first skill management for Codex, Claude Code, OpenClaw, Hermes, and public agent skill directories.",
+      "html_url": "https://github.com/chemny/skill-manager",
+      "language": "Python",
+      "name": "skill-manager",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "hermes",
+        "openclaw",
+        "skill-manager"
+      ]
+    },
+    {
+      "description": "Photo Studio is an Agent Skill for photography studios to create ID photos, portrait previews, photo edits, and delivery packages.",
+      "html_url": "https://github.com/chemny/photo-studio",
+      "language": "Python",
+      "name": "photo-studio",
+      "topics": []
+    },
+    {
+      "description": "Review floor-plan references, build editable offline 2D/3D renovation workbenches, and explore interior concepts and H5 walkthroughs.",
+      "html_url": "https://github.com/chemny/visualize-floorplans",
+      "language": "HTML",
+      "name": "visualize-floorplans",
+      "topics": []
+    },
+    {
+      "description": "Publish local agent skills as clean, installable, promotion-ready single-skill GitHub repositories.",
+      "html_url": "https://github.com/chemny/GitHub-skill-publisher",
+      "language": "JavaScript",
+      "name": "GitHub-skill-publisher",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "github-publishing",
+        "openclaw"
+      ]
+    },
+    {
+      "description": "Reuse vehicle assets, guide bounded shape optimization, and deliver reproducible Three.js configurators with evidence-based checks.",
+      "html_url": "https://github.com/chemny/vehicle-configurator",
+      "language": "Python",
+      "name": "vehicle-configurator",
+      "topics": []
+    },
+    {
+      "description": "Download videos, covers, audio, and transcripts from supported links through one local agent Skill and web page.",
+      "html_url": "https://github.com/chemny/video-download-transcribe",
+      "language": "JavaScript",
+      "name": "video-download-transcribe",
+      "topics": []
+    },
+    {
+      "description": "Plan and generate complete ecommerce product-detail image series with structured copy, layouts, style options, and quality control.",
+      "html_url": "https://github.com/chemny/product-detail-images",
+      "language": "Python",
+      "name": "product-detail-images",
+      "topics": []
+    },
+    {
+      "description": "Create source-checked English learning posters with age-aware visuals, deterministic text placement, and first-pass quality gates.",
+      "html_url": "https://github.com/chemny/english-learning-materials",
+      "language": "Python",
+      "name": "english-learning-materials",
+      "topics": []
+    },
+    {
+      "description": "Spoken acknowledgements and decision-first completion summaries for Codex and other coding agents.",
+      "html_url": "https://github.com/chemny/codex-voice-reply",
+      "language": "JavaScript",
+      "name": "codex-voice-reply",
+      "topics": []
+    },
+    {
+      "description": "本地优先的视频剪辑 skill，支持转写、口播剪辑、字幕审核、素材插入和成片验证。",
+      "html_url": "https://github.com/chemny/video-edit-skills",
+      "language": "JavaScript",
+      "name": "video-edit-skills",
+      "topics": []
+    },
+    {
+      "description": "把微信公众号合集批量下载为本地 Markdown，并内置离线 Browser Bridge 扩展准备流程。",
+      "html_url": "https://github.com/chemny/weixin-album-downloader",
+      "language": "JavaScript",
+      "name": "weixin-album-downloader",
+      "topics": []
+    },
+    {
+      "description": "通用 AI 生图 skill：原样传递用户提示词，统一调用多种生图接口，并自动匹配常见平台图片尺寸。",
+      "html_url": "https://github.com/chemny/ai-image-generator",
+      "language": "Shell",
+      "name": "ai-image-generator",
+      "topics": [
+        "agent-skill",
+        "ai-image-generation",
+        "claude-code",
+        "codex",
+        "gpt-image",
+        "gpt-image2",
+        "nano-banana",
+        "openclaw",
+        "qwen-image",
+        "siliconflow"
+      ]
+    },
+    {
+      "description": "把零散图片、视频、人声、配乐和文案自动组装成音画同步的高品质竖屏短视频。",
+      "html_url": "https://github.com/chemny/auto-video-maker",
+      "language": "Python",
+      "name": "auto-video-maker",
+      "topics": []
+    },
+    {
+      "description": "本地优先的抖音视频、封面、直接音频和用户主页作品列表采集下载 Skill。",
+      "html_url": "https://github.com/chemny/douyin-video-downloader",
+      "language": "JavaScript",
+      "name": "douyin-video-downloader",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "douyin",
+        "openclaw",
+        "playwright",
+        "sqlite",
+        "video-downloader"
+      ]
+    },
+    {
+      "description": "让 Agent skills 从纠错、偏好、复盘和工作流经验中持续自我改进",
+      "html_url": "https://github.com/chemny/self-improving-skills",
+      "language": "JavaScript",
+      "name": "self-improving-skills",
+      "topics": []
+    },
+    {
+      "description": "Local-first media source collection skill for AI news, daily briefings, deduplication, and creator workflows.",
+      "html_url": "https://github.com/chemny/AI-news-collector",
+      "language": "Python",
+      "name": "AI-news-collector",
+      "topics": []
+    },
+    {
+      "description": "Agent skill for reconstructing image-based slide PDFs into editable PowerPoint decks",
+      "html_url": "https://github.com/chemny/notebooklm-pdf-to-ppt",
+      "language": "Python",
+      "name": "notebooklm-pdf-to-ppt",
+      "topics": [
+        "agent-skill",
+        "notebooklm",
+        "ocr",
+        "pdf",
+        "powerpoint",
+        "pptx"
+      ]
+    },
+    {
+      "description": "A structured product-management workflow suite with a focused skill picker, main router, and reusable PM capabilities.",
+      "html_url": "https://github.com/chemny/cmm-pm-skills",
+      "language": "HTML",
+      "name": "cmm-pm-skills",
+      "topics": [
+        "claude-code",
+        "pm-skills",
+        "prd",
+        "product-management"
+      ]
+    },
+    {
+      "description": "Safely initialize, connect, query, and maintain a traceable AI-managed Obsidian Wiki with Codex or Claude Code.",
+      "html_url": "https://github.com/chemny/obsidian-wiki-manager",
+      "language": "Python",
+      "name": "obsidian-wiki-manager",
+      "topics": []
+    },
+    {
+      "description": "Turn articles, topics, or opinion briefs into narrated short-video packages with scripts, TTS, captions, Remotion templates, covers, and publish copy.",
+      "html_url": "https://github.com/chemny/short-video-maker",
+      "language": "TypeScript",
+      "name": "short-video-maker",
+      "topics": [
+        "agent-skill",
+        "claude-code",
+        "codex",
+        "douyin",
+        "remotion",
+        "short-video",
+        "xiaohongshu"
+      ]
+    },
+    {
+      "description": "Turn any topic, opinion, or reference script into a Chinese short-video talking script and publishing package.",
+      "html_url": "https://github.com/chemny/short-video-scriptwriter",
+      "language": null,
+      "name": "short-video-scriptwriter",
+      "topics": []
+    },
+    {
+      "description": "把 OpenToken 本机用量生成中文 HTML 报表，并自动打开浏览器查看 Token 趋势。",
+      "html_url": "https://github.com/chemny/token-usage-report",
+      "language": "JavaScript",
+      "name": "token-usage-report",
+      "topics": []
+    }
+  ],
+  "articles": [
+    {
+      "slug": "skills-as-workflows",
+      "title": "把重复工作，做成自己的 Agent Skills",
+      "excerpt": "从一次性提示词到可复用工作流：真正值得保存的，是解决问题的方法。",
+      "tag": "Agent 实践",
+      "minutes": "5",
+      "sections": [
+        [
+          "从一件重复的小事开始",
+          "当一项工作需要反复解释背景、整理素材、检查结果时，它就值得被整理成一个 Skill。起点可以很小：统一文章格式，检查发布材料，或把一段视频整理成可阅读的文字。"
+        ],
+        [
+          "保存流程，也保存判断",
+          "一个可靠的 Skill 不只是一串操作。它还需要说明什么时候使用、输入需要满足什么条件，以及怎样判断输出是否合格。把这些判断写清楚，下一次协作就会少一些猜测。"
+        ],
+        [
+          "先跑通，再抽象",
+          "先完成一次真实任务，观察哪些步骤稳定、哪些环节需要人工判断，再把稳定的部分提炼出来。过早设计一套庞大的系统，往往会让简单的任务变得复杂。"
+        ],
+        [
+          "让能力慢慢生长",
+          "每一次纠错都可以成为下一次工作的起点。保留可复用的规则，把具体案例留在任务记录里，让工具随着真实使用逐渐成熟。"
+        ]
+      ]
+    },
+    {
+      "slug": "creative-workflows",
+      "title": "内容创作，需要一条顺手的工作流",
+      "excerpt": "把搜集、写作和制作连接起来，为真正需要思考的部分留下空间。",
+      "tag": "创作方法",
+      "minutes": "4",
+      "sections": [
+        [
+          "先想清楚要表达什么",
+          "在寻找工具之前，先写下一句话：这次内容想让谁理解什么？这句话会决定素材的取舍，也会帮助我们判断最终结果是否清楚。"
+        ],
+        [
+          "把工作分成几个可检查的阶段",
+          "素材整理、观点梳理、初稿、制作和检查，各自拥有明确的交付物。每一个阶段都能停下来检查，整体流程就更容易调整。"
+        ],
+        [
+          "自动化应该留出人的位置",
+          "格式转换和重复操作适合交给工具。观点是否准确、表达是否自然、成片是否符合预期，仍然需要创作者自己的判断。"
+        ]
+      ]
+    },
+    {
+      "slug": "build-in-public",
+      "title": "开源，是把实践留给下一位出发的人",
+      "excerpt": "一个小工具、一份清楚的说明，也可以成为有价值的分享。",
+      "tag": "开源记录",
+      "minutes": "3",
+      "sections": [
+        [
+          "从自己的问题出发",
+          "最容易坚持维护的项目，常常来自自己每天遇到的问题。使用者也是作者，反馈会更直接，改进也有具体的方向。"
+        ],
+        [
+          "清楚的说明也是作品的一部分",
+          "写明项目解决什么问题、需要什么条件、如何开始，以及有哪些限制。让第一次接触项目的人可以顺利走完第一步。"
+        ],
+        [
+          "让改进有迹可循",
+          "小步更新，记录变化，承认边界。一个项目的价值不只在于功能多少，也在于它能否被理解、被使用，以及被继续改进。"
+        ]
+      ]
+    }
+  ]
+}
