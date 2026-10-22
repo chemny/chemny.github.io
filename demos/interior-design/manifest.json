@@ -1,0 +1,133 @@
+{
+  "title": "居间 · 香槟珍珠",
+  "workbench": "workbench.html",
+  "workbenchSourceSha256": "d124fb27bd536839cd14f30efc9d76a05520bbf250480f99a7052ff01adb9bba",
+  "scope": "latest workbench; retained older drawings, concept images and walkthrough explicitly labelled",
+  "files": [
+    {
+      "path": "workbench.html",
+      "bytes": 4834149,
+      "sha256": "e229c154a851e0432d429da1b9913b94c9cfeb99e2e899da90fae2e85f7e2edc"
+    },
+    {
+      "path": "licenses/skill-MIT.txt",
+      "bytes": 1063,
+      "sha256": "bf9cee19251a4869814cf278e2dc4ec7764921ff487144766dc3c79ce41be78b"
+    },
+    {
+      "path": "licenses/Three.js-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "licenses/FLOORPLAN-REFERENCE-LICENSE.txt",
+      "bytes": 1061,
+      "sha256": "293e6ff11a707c7797873366aae769dd0df3c8d4a33e51c01ae4dd5f91664f14"
+    },
+    {
+      "path": "images/master-wide.png",
+      "bytes": 1630282,
+      "sha256": "c08cba86a02d77bab9fb2f8cc0f779bfc46fd13e99833de033d4d0bc911272f2"
+    },
+    {
+      "path": "images/balcony-left.png",
+      "bytes": 1663812,
+      "sha256": "8254076403a0ac800801e476fc81d5abb06e19ad9aa11207e539580e836dc1a4"
+    },
+    {
+      "path": "images/publicbath.png",
+      "bytes": 1477242,
+      "sha256": "3781d119fd1f3d0de57bca1465d372ef903fadbd7f88804887c4db238cc6ae97"
+    },
+    {
+      "path": "images/study.png",
+      "bytes": 1486220,
+      "sha256": "78a878ff4bc9f95a9002f1703bc2faa100863992a83c18d83a65c81d34ff52f5"
+    },
+    {
+      "path": "images/publicbath-wet.png",
+      "bytes": 1718754,
+      "sha256": "e955956656e4f50a159b9831cc9a0f037a753c8d4829515cab94fcb2056bbcd9"
+    },
+    {
+      "path": "images/guest.png",
+      "bytes": 1634573,
+      "sha256": "17b8d6d3f596292fe5cf021bdfc69a9916c9e7315eac2c63e946233a2635375a"
+    },
+    {
+      "path": "images/dining.png",
+      "bytes": 1620539,
+      "sha256": "d8a18127f8454bfbded508e77e4c6d6bf1a745542952191d64c2d149846a77fe"
+    },
+    {
+      "path": "images/laundry.png",
+      "bytes": 1502822,
+      "sha256": "1c449c84f506fd8654fddb6eaf5c293b1324c73a16cf4a0fd2d74493bc997129"
+    },
+    {
+      "path": "images/living-wide.png",
+      "bytes": 1824842,
+      "sha256": "9b8c365dce9089490b695b7c49c3188342cc7cac56e005b9652b34dde7dcb698"
+    },
+    {
+      "path": "images/study-entry.png",
+      "bytes": 1424979,
+      "sha256": "96c81f8d5e8f47dfb81ec5a45309bd18bfbc9239be79cd3a5179247a06b8d1f2"
+    },
+    {
+      "path": "images/master-storage.png",
+      "bytes": 1477395,
+      "sha256": "ca0fc7a08a58a4bc929ece8accc1b843ecf120269cd5ae9b0446ff57e6dae459"
+    },
+    {
+      "path": "images/kitchen.png",
+      "bytes": 1402922,
+      "sha256": "12132a1b1921aa7257052567736253cc51ce98bcddb1aff556732e56b6dabac1"
+    },
+    {
+      "path": "images/masterbath.png",
+      "bytes": 1415493,
+      "sha256": "47eed1ea751e1206cab4eff9f55d9e72d4df6593f2f2c83c463ae623fc7b731b"
+    },
+    {
+      "path": "drawings/户型图.png",
+      "bytes": 321163,
+      "sha256": "527eb8059aacebb8f6a79154228d8d2394597c1fbafaaa6032ddca333a0cb88a"
+    },
+    {
+      "path": "drawings/户型图.svg",
+      "bytes": 39244,
+      "sha256": "f51f55daa1a66878a9d3260135ed82c68d50b1e026dcc0b8b3c0cb6c03e884d9"
+    },
+    {
+      "path": "drawings/硬装图.png",
+      "bytes": 557202,
+      "sha256": "e278bc7eae1f8a87c2bcdd19b874147ee09df7a8c9b9a65a3c6dc66b9b4d329e"
+    },
+    {
+      "path": "drawings/家具布局.svg",
+      "bytes": 100261,
+      "sha256": "6e1e1584be8281548511427f156b743ae756c21d209576574c24a8dae8a23315"
+    },
+    {
+      "path": "drawings/家具布局.png",
+      "bytes": 727796,
+      "sha256": "25d1664feee81ed9b36cf47b4274eb525c9f9805b547995c82ddbc7bf3c6491f"
+    },
+    {
+      "path": "tour/walkthrough.mp4",
+      "bytes": 9072826,
+      "sha256": "24b0a279a3f6cbcb52ac7c47cbf6748ed9da3da51a5be3076d9c040d1aeb33db"
+    },
+    {
+      "path": "inputs/户型参考.png",
+      "bytes": 1220140,
+      "sha256": "0ad84b2bfaf48c22eb38a573b83c553bb93c69221f623b9ff869565092dd7c1a"
+    },
+    {
+      "path": "inputs/家具参考.png",
+      "bytes": 1556690,
+      "sha256": "db9be2c29e1d5fb271b6ad6cec1d068b41e20ff1cfd6305ced76b789249fc097"
+    }
+  ]
+}
