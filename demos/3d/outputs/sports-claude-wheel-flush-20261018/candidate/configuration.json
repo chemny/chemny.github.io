@@ -1,0 +1,80 @@
+{
+  "paints": [
+    {
+      "id": "yellow",
+      "label": "原图亮黄",
+      "color": "#ffd20a",
+      "metalness": 0.3,
+      "roughness": 0.19,
+      "material_id": "paint"
+    },
+    {
+      "id": "white",
+      "label": "珍珠白",
+      "color": "#e9e7df",
+      "metalness": 0.18,
+      "roughness": 0.26,
+      "material_id": "paint_white"
+    },
+    {
+      "id": "silver",
+      "label": "金属银灰",
+      "color": "#9ca5ad",
+      "metalness": 0.72,
+      "roughness": 0.28,
+      "material_id": "paint_silver"
+    },
+    {
+      "id": "black",
+      "label": "曜石黑",
+      "color": "#161c22",
+      "metalness": 0.35,
+      "roughness": 0.23,
+      "material_id": "paint_black"
+    },
+    {
+      "id": "red",
+      "label": "赛车红",
+      "color": "#ae1426",
+      "metalness": 0.35,
+      "roughness": 0.23,
+      "material_id": "paint_red"
+    },
+    {
+      "id": "blue",
+      "label": "深海蓝",
+      "color": "#163c61",
+      "metalness": 0.48,
+      "roughness": 0.25,
+      "material_id": "paint_blue"
+    }
+  ],
+  "wheels": [
+    {
+      "id": "split",
+      "label": "双分叉运动轮毂"
+    },
+    {
+      "id": "five",
+      "label": "锻造五辐轮毂"
+    },
+    {
+      "id": "turbine",
+      "label": "双色涡轮轮毂"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "light",
+      "label": "自然棚拍"
+    },
+    {
+      "id": "architecture",
+      "label": "浅色建筑"
+    },
+    {
+      "id": "dark",
+      "label": "深色展厅"
+    }
+  ]
+}

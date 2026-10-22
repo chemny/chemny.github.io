@@ -1,0 +1,241 @@
+{
+  "title": "车辆选配 · Automotive Studio",
+  "description": "亮面汽车漆迭代：仅调整底漆与透明清漆响应，保留全车几何和现有配色。",
+  "model": "./model.glb.gz",
+  "rotationY": 0,
+  "paintMaterials": [],
+  "paints": [
+    {
+      "id": "original",
+      "label": "原图银灰",
+      "color": "#92999f"
+    },
+    {
+      "id": "white",
+      "label": "珍珠白",
+      "color": "#eeeae0"
+    },
+    {
+      "id": "black",
+      "label": "曜石黑",
+      "color": "#252a2d"
+    },
+    {
+      "id": "green",
+      "label": "松林绿",
+      "color": "#3f6250"
+    },
+    {
+      "id": "blue",
+      "label": "深海蓝",
+      "color": "#34556e"
+    },
+    {
+      "id": "red",
+      "label": "酒红",
+      "color": "#6c2b36"
+    }
+  ],
+  "rims": [],
+  "doors": [
+    {
+      "node": "DoorPivot_LF",
+      "label": "左前门",
+      "axis": "y",
+      "openAngle": -1.12
+    },
+    {
+      "node": "DoorPivot_LR",
+      "label": "左后门",
+      "axis": "y",
+      "openAngle": -1.12
+    },
+    {
+      "node": "DoorPivot_RF",
+      "label": "右前门",
+      "axis": "y",
+      "openAngle": 1.12
+    },
+    {
+      "node": "DoorPivot_RR",
+      "label": "右后门",
+      "axis": "y",
+      "openAngle": 1.12
+    }
+  ],
+  "interiors": [],
+  "cameraDirection": [
+    1,
+    0.16,
+    1
+  ],
+  "schema_version": 2,
+  "asset": {
+    "id": "existing-vehicle-v17",
+    "version": "dd9762e1428a38e52eca255b07e542518986c70171c53da1bc5005f65bb363a7",
+    "config_version": "paint-calibration-v1-20261018"
+  },
+  "paintTargets": [
+    "n19:p0",
+    "n21:p0",
+    "n21:p1",
+    "n70:p0",
+    "n94:p0",
+    "n96:p0",
+    "n98:p0",
+    "n100:p0",
+    "n102:p0",
+    "n102:p1",
+    "n104:p0",
+    "n104:p1",
+    "n106:p0",
+    "n106:p1",
+    "n108:p0",
+    "n108:p1",
+    "n123:p0",
+    "n124:p0",
+    "n125:p0",
+    "n126:p0",
+    "n127:p0",
+    "n128:p0",
+    "n129:p0",
+    "n130:p0",
+    "n131:p0",
+    "n132:p0",
+    "n133:p0",
+    "n134:p0",
+    "n135:p0",
+    "n136:p0",
+    "n137:p0",
+    "n21:p2",
+    "n21:p3",
+    "n138:p0"
+  ],
+  "runtimeDependencies": [
+    {
+      "module": "./case-adapter.js",
+      "reason": "V17 fused body paint/glass/lamps and reconstructed shared boundaries require original case shader",
+      "files": [
+        {
+          "path": "case-adapter.js",
+          "sha256": "60027674a58eb4596f04c0455c210c5721f5f4632b4f5607f11989f9acd35d0e"
+        },
+        {
+          "path": "semantic-mask-v9.png",
+          "sha256": "b0603ad81aae35e9931f083c869f5ba1251293167a24d7b3116d1e1bc3299a32"
+        },
+        {
+          "path": "semantic-paint-v17.js",
+          "sha256": "056d798eaed1ed4ba6ec3381139b3d9c578ab3599210f81b1a80d6607af53b82"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "day",
+      "label": "自然棚拍",
+      "background": "#e9e5de",
+      "floor": "#dedbd2",
+      "exposure": 0.82,
+      "hemi": 0.85,
+      "keyPower": 1.8,
+      "keyColor": "#ffffff",
+      "fillColor": "#e7edf2"
+    },
+    {
+      "id": "warm",
+      "label": "浅色建筑",
+      "background": "#dfc9ae",
+      "floor": "#cbb699",
+      "exposure": 1,
+      "hemi": 1.15,
+      "keyPower": 3.1,
+      "keyColor": "#ffc68d",
+      "fillColor": "#b5c5e0"
+    },
+    {
+      "id": "studio",
+      "label": "深色展厅",
+      "background": "#454e49",
+      "floor": "#404843",
+      "exposure": 1.05,
+      "hemi": 0.8,
+      "keyPower": 3.2,
+      "keyColor": "#ffffff",
+      "fillColor": "#c4d7dc"
+    }
+  ],
+  "views": [
+    {
+      "id": "quarter",
+      "label": "正侧45°",
+      "direction": [
+        1,
+        0.16,
+        1
+      ]
+    },
+    {
+      "id": "left",
+      "label": "车头侧面",
+      "direction": [
+        1,
+        0.2,
+        0
+      ]
+    },
+    {
+      "id": "rear-quarter",
+      "label": "后侧45°",
+      "direction": [
+        1,
+        0.16,
+        -1
+      ]
+    },
+    {
+      "id": "rear",
+      "label": "车尾",
+      "direction": [
+        0,
+        0.2,
+        -1
+      ]
+    },
+    {
+      "id": "top",
+      "label": "车顶",
+      "direction": [
+        0,
+        1,
+        0.01
+      ]
+    }
+  ],
+  "wheelSummary": {
+    "label": "十组精修轮毂",
+    "description": "原案例固定轮毂 · 未提供替换变体"
+  },
+  "originalPaintId": "original",
+  "originalPaintLabel": "原图银灰",
+  "referenceGallery": [
+    {
+      "label": "前方45°",
+      "image": "./reference-views-lidar-v6/left-45.png",
+      "note": "原案例生成设计参考；非实测工程图，底模与参考仍存在形似误差。"
+    },
+    {
+      "label": "正侧视图",
+      "image": "./reference-views-lidar-v6/left-side.png",
+      "note": "原案例生成设计参考；非实测工程图，底模与参考仍存在形似误差。"
+    },
+    {
+      "label": "正后视图",
+      "image": "./reference-views-lidar-v6/rear.png",
+      "note": "原案例生成设计参考；非实测工程图，底模与参考仍存在形似误差。"
+    }
+  ],
+  "bundleManifest": "./bundle-manifest.json",
+  "assetManifest": "./asset-manifest.json"
+}

@@ -1,0 +1,122 @@
+{
+  "cameras": {
+    "original": {
+      "type": "orthographic",
+      "position": [
+        -0.07029924690136599,
+        3.5707094012665026,
+        8.66429123528176
+      ],
+      "target": [
+        0.017462425793379907,
+        1.1371204304200535,
+        0
+      ],
+      "ortho_height": 3.3650165830582255,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "width": 1374,
+      "height": 1145,
+      "near": 0.01,
+      "far": 100
+    },
+    "profile": {
+      "type": "orthographic",
+      "position": [
+        0,
+        1.45,
+        10
+      ],
+      "target": [
+        0,
+        1.3,
+        0
+      ],
+      "ortho_height": 3.28,
+      "width": 1374,
+      "height": 1145,
+      "near": 0.01,
+      "far": 100,
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    "top": {
+      "type": "orthographic",
+      "position": [
+        0.041788078759545336,
+        10.800280530455453,
+        0.5652743756469654
+      ],
+      "target": [
+        0.041788078759545336,
+        1.8123664835602424,
+        0.09901148239492263
+      ],
+      "up": [
+        0,
+        0,
+        -1
+      ],
+      "ortho_height": 3.345675718389595,
+      "width": 1374,
+      "height": 1145,
+      "near": 0.01,
+      "far": 100
+    },
+    "rear": {
+      "type": "orthographic",
+      "position": [
+        -0.3,
+        4.6,
+        -9
+      ],
+      "target": [
+        0,
+        1.27,
+        0
+      ],
+      "ortho_height": 3.3,
+      "width": 1374,
+      "height": 1145,
+      "near": 0.01,
+      "far": 100,
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    "end": {
+      "type": "orthographic",
+      "position": [
+        -9,
+        3.6,
+        0
+      ],
+      "target": [
+        0,
+        1.27,
+        0
+      ],
+      "ortho_height": 3.06,
+      "width": 1374,
+      "height": 1145,
+      "near": 0.01,
+      "far": 100,
+      "up": [
+        0,
+        1,
+        0
+      ]
+    }
+  },
+  "landmarks": [],
+  "scope": "browser-display",
+  "connections": []
+}

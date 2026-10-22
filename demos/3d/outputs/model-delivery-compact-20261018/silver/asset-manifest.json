@@ -1,0 +1,5587 @@
+{
+  "schema_version": 2,
+  "asset": {
+    "id": "existing-vehicle-v17",
+    "version": "dd9762e1428a38e52eca255b07e542518986c70171c53da1bc5005f65bb363a7",
+    "sha256": "dd9762e1428a38e52eca255b07e542518986c70171c53da1bc5005f65bb363a7",
+    "source": "./model.glb.gz",
+    "bytes": 74395008,
+    "license": "not_supplied",
+    "transport": {
+      "encoding": "gzip",
+      "bytes": 41051660,
+      "sha256": "5c02d774aee0adae204630b4b8707ab9b9264e903bb89fdae64152496d4d5f73",
+      "decoded_bytes": 74395008,
+      "decoded_sha256": "dd9762e1428a38e52eca255b07e542518986c70171c53da1bc5005f65bb363a7"
+    }
+  },
+  "coordinates": {
+    "up": "+Y",
+    "units": "glTF meters; authored scale not verified",
+    "forward": "unknown"
+  },
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "DriverWiper"
+    },
+    {
+      "mesh": 1,
+      "name": "LidarOpticalWindow"
+    },
+    {
+      "mesh": 2,
+      "name": "PassengerWiper"
+    },
+    {
+      "mesh": 3,
+      "name": "PreviewCabinBack",
+      "translation": [
+        0,
+        1.1130750179290771,
+        -0.5565375089645386
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "PreviewCabinFloor",
+      "translation": [
+        0,
+        0.5787990093231201,
+        0.33392250537872314
+      ]
+    },
+    {
+      "mesh": 5,
+      "name": "PreviewCabinWall1",
+      "translation": [
+        0.6856542229652405,
+        0.9127215147018433,
+        0.28939950466156006
+      ]
+    },
+    {
+      "mesh": 6,
+      "name": "PreviewCabinWall-1",
+      "translation": [
+        -0.6856542229652405,
+        0.9127215147018433,
+        0.28939950466156006
+      ]
+    },
+    {
+      "mesh": 7,
+      "name": "PreviewCeiling"
+    },
+    {
+      "mesh": 8,
+      "name": "PreviewConsole",
+      "translation": [
+        0,
+        1.0017675161361694,
+        0.6678450107574463
+      ]
+    },
+    {
+      "mesh": 9,
+      "name": "PreviewDashboard",
+      "translation": [
+        0,
+        1.1353365182876587,
+        1.1798595190048218
+      ]
+    },
+    {
+      "mesh": 10,
+      "name": "PreviewFrontInnerLiner"
+    },
+    {
+      "mesh": 11,
+      "name": "PreviewHeadrest1",
+      "translation": [
+        0.3472793996334076,
+        1.6473510265350342,
+        0.534276008605957
+      ]
+    },
+    {
+      "mesh": 12,
+      "name": "PreviewHeadrest-1",
+      "translation": [
+        -0.3472793996334076,
+        1.6473510265350342,
+        0.534276008605957
+      ]
+    },
+    {
+      "mesh": 13,
+      "name": "PreviewSeatBack1",
+      "translation": [
+        0.3472793996334076,
+        1.3356900215148926,
+        0.534276008605957
+      ]
+    },
+    {
+      "mesh": 14,
+      "name": "PreviewSeatBack-1",
+      "translation": [
+        -0.3472793996334076,
+        1.3356900215148926,
+        0.534276008605957
+      ]
+    },
+    {
+      "mesh": 15,
+      "name": "PreviewSeatBase1",
+      "translation": [
+        0.3472793996334076,
+        0.9706013798713684,
+        0.503109872341156
+      ]
+    },
+    {
+      "mesh": 16,
+      "name": "PreviewSeatBase-1",
+      "translation": [
+        -0.3472793996334076,
+        0.9706013798713684,
+        0.503109872341156
+      ]
+    },
+    {
+      "mesh": 17,
+      "name": "PreviewSteeringWheel",
+      "rotation": [
+        0.537299633026123,
+        0,
+        0,
+        0.8433914184570312
+      ],
+      "translation": [
+        -0.3472793996334076,
+        1.2733577489852905,
+        1.0106720924377441
+      ]
+    },
+    {
+      "mesh": 18,
+      "name": "RebuiltLidarHousing"
+    },
+    {
+      "mesh": 19,
+      "name": "RebuiltRoofAndPillarFrame"
+    },
+    {
+      "mesh": 20,
+      "name": "RebuiltWindshield"
+    },
+    {
+      "mesh": 21,
+      "name": "VehicleExterior"
+    },
+    {
+      "mesh": 22,
+      "name": "WindshieldPerimeterSeal"
+    },
+    {
+      "name": "WindshieldInnerFrit",
+      "mesh": 23
+    },
+    {
+      "name": "FrontRightRimLip",
+      "mesh": 24
+    },
+    {
+      "name": "FrontRightRimBarrel",
+      "mesh": 25
+    },
+    {
+      "name": "FrontRightBrakeDisc",
+      "mesh": 26
+    },
+    {
+      "name": "FrontRightSplitSpokeFace",
+      "mesh": 27
+    },
+    {
+      "name": "FrontRightSplitSpokes",
+      "mesh": 28
+    },
+    {
+      "name": "FrontRightSpokeSidewalls",
+      "mesh": 29
+    },
+    {
+      "name": "FrontRightCenterCap",
+      "mesh": 30
+    },
+    {
+      "name": "FrontRightBoltCollars",
+      "mesh": 31
+    },
+    {
+      "name": "FrontLeftRimLip",
+      "mesh": 32
+    },
+    {
+      "name": "FrontLeftRimBarrel",
+      "mesh": 33
+    },
+    {
+      "name": "FrontLeftBrakeDisc",
+      "mesh": 34
+    },
+    {
+      "name": "FrontLeftSplitSpokeFace",
+      "mesh": 35
+    },
+    {
+      "name": "FrontLeftSplitSpokes",
+      "mesh": 36
+    },
+    {
+      "name": "FrontLeftSpokeSidewalls",
+      "mesh": 37
+    },
+    {
+      "name": "FrontLeftCenterCap",
+      "mesh": 38
+    },
+    {
+      "name": "FrontLeftBoltCollars",
+      "mesh": 39
+    },
+    {
+      "name": "RearRightRimLip",
+      "mesh": 40
+    },
+    {
+      "name": "RearRightRimBarrel",
+      "mesh": 41
+    },
+    {
+      "name": "RearRightBrakeDisc",
+      "mesh": 42
+    },
+    {
+      "name": "RearRightSplitSpokeFace",
+      "mesh": 43
+    },
+    {
+      "name": "RearRightSplitSpokes",
+      "mesh": 44
+    },
+    {
+      "name": "RearRightSpokeSidewalls",
+      "mesh": 45
+    },
+    {
+      "name": "RearRightCenterCap",
+      "mesh": 46
+    },
+    {
+      "name": "RearRightBoltCollars",
+      "mesh": 47
+    },
+    {
+      "name": "RearLeftRimLip",
+      "mesh": 48
+    },
+    {
+      "name": "RearLeftRimBarrel",
+      "mesh": 49
+    },
+    {
+      "name": "RearLeftBrakeDisc",
+      "mesh": 50
+    },
+    {
+      "name": "RearLeftSplitSpokeFace",
+      "mesh": 51
+    },
+    {
+      "name": "RearLeftSplitSpokes",
+      "mesh": 52
+    },
+    {
+      "name": "RearLeftSpokeSidewalls",
+      "mesh": 53
+    },
+    {
+      "name": "RearLeftCenterCap",
+      "mesh": 54
+    },
+    {
+      "name": "RearLeftBoltCollars",
+      "mesh": 55
+    },
+    {
+      "name": "FrontProjectorTrim-10.827",
+      "mesh": 56
+    },
+    {
+      "name": "FrontProjectorLens-10.827",
+      "mesh": 57
+    },
+    {
+      "name": "FrontProjectorLight-10.827",
+      "mesh": 58
+    },
+    {
+      "name": "FrontProjectorTrim-10.691",
+      "mesh": 59
+    },
+    {
+      "name": "FrontProjectorLens-10.691",
+      "mesh": 60
+    },
+    {
+      "name": "FrontProjectorLight-10.691",
+      "mesh": 61
+    },
+    {
+      "name": "FrontProjectorTrim10.827",
+      "mesh": 62
+    },
+    {
+      "name": "FrontProjectorLens10.827",
+      "mesh": 63
+    },
+    {
+      "name": "FrontProjectorLight10.827",
+      "mesh": 64
+    },
+    {
+      "name": "FrontProjectorTrim10.691",
+      "mesh": 65
+    },
+    {
+      "name": "FrontProjectorLens10.691",
+      "mesh": 66
+    },
+    {
+      "name": "FrontProjectorLight10.691",
+      "mesh": 67
+    },
+    {
+      "name": "ContinuousFrontLED",
+      "mesh": 68
+    },
+    {
+      "name": "ContinuousTailLED",
+      "mesh": 69
+    },
+    {
+      "name": "SourceFittedFrontFascia",
+      "mesh": 70
+    },
+    {
+      "name": "WindowPerimeterChrome-1",
+      "extras": {
+        "replacement": "calibrated surface-bound chrome material band"
+      }
+    },
+    {
+      "name": "WindowPerimeterChrome1",
+      "extras": {
+        "replacement": "calibrated surface-bound chrome material band"
+      }
+    },
+    {
+      "name": "FrontLightBandHousing",
+      "mesh": 73
+    },
+    {
+      "name": "RearLightBandHousing",
+      "mesh": 74
+    },
+    {
+      "name": "ProjectorCavityBacking-1",
+      "mesh": 75
+    },
+    {
+      "name": "ProjectorCavityReturn-1",
+      "mesh": 76
+    },
+    {
+      "name": "ProjectorCavityBezel-1",
+      "mesh": 77
+    },
+    {
+      "name": "ProjectorCavityBacking1",
+      "mesh": 78
+    },
+    {
+      "name": "ProjectorCavityReturn1",
+      "mesh": 79
+    },
+    {
+      "name": "ProjectorCavityBezel1",
+      "mesh": 80
+    },
+    {
+      "name": "ProjectorPrecisionSurround-10.827",
+      "mesh": 81
+    },
+    {
+      "name": "ProjectorPrecisionSurround-10.691",
+      "mesh": 82
+    },
+    {
+      "name": "ProjectorVerticalAccent-1-0.053",
+      "mesh": 83
+    },
+    {
+      "name": "ProjectorVerticalAccent-10.053",
+      "mesh": 84
+    },
+    {
+      "name": "ProjectorPrecisionSurround10.827",
+      "mesh": 85
+    },
+    {
+      "name": "ProjectorPrecisionSurround10.691",
+      "mesh": 86
+    },
+    {
+      "name": "ProjectorVerticalAccent1-0.053",
+      "mesh": 87
+    },
+    {
+      "name": "ProjectorVerticalAccent10.053",
+      "mesh": 88
+    },
+    {
+      "name": "RearSecondaryOptic-1",
+      "mesh": 89
+    },
+    {
+      "name": "FrontAmberCorner-1",
+      "mesh": 90
+    },
+    {
+      "name": "RearSecondaryOptic1",
+      "mesh": 91
+    },
+    {
+      "name": "FrontAmberCorner1",
+      "mesh": 92
+    },
+    {
+      "name": "FrontRightHandleGasket",
+      "mesh": 93,
+      "extras": {
+        "componentRole": "door_handle",
+        "protectedFromSurfaceFairing": true
+      },
+      "translation": [
+        0.94,
+        -0.94,
+        -1.14
+      ]
+    },
+    {
+      "name": "FrontRightHandleFace",
+      "mesh": 94,
+      "extras": {
+        "componentRole": "door_handle",
+        "protectedFromSurfaceFairing": true
+      },
+      "translation": [
+        0.94,
+        -0.94,
+        -1.14
+      ]
+    },
+    {
+      "name": "RearRightHandleGasket",
+      "mesh": 95,
+      "extras": {
+        "componentRole": "door_handle",
+        "protectedFromSurfaceFairing": true
+      },
+      "translation": [
+        0.94,
+        -0.94,
+        0.018
+      ]
+    },
+    {
+      "name": "RearRightHandleFace",
+      "mesh": 96,
+      "extras": {
+        "componentRole": "door_handle",
+        "protectedFromSurfaceFairing": true
+      },
+      "translation": [
+        0.94,
+        -0.94,
+        0.018
+      ]
+    },
+    {
+      "name": "FrontLeftHandleGasket",
+      "mesh": 97,
+      "extras": {
+        "componentRole": "door_handle",
+        "protectedFromSurfaceFairing": true
+      },
+      "translation": [
+        -0.94,
+        -0.94,
+        -1.14
+      ]
+    },
+    {
+      "name": "FrontLeftHandleFace",
+      "mesh": 98,
+      "extras": {
+        "componentRole": "door_handle",
+        "protectedFromSurfaceFairing": true
+      },
+      "translation": [
+        -0.94,
+        -0.94,
+        -1.14
+      ]
+    },
+    {
+      "name": "RearLeftHandleGasket",
+      "mesh": 99,
+      "extras": {
+        "componentRole": "door_handle",
+        "protectedFromSurfaceFairing": true
+      },
+      "translation": [
+        -0.94,
+        -0.94,
+        0.018
+      ]
+    },
+    {
+      "name": "RearLeftHandleFace",
+      "mesh": 100,
+      "extras": {
+        "componentRole": "door_handle",
+        "protectedFromSurfaceFairing": true
+      },
+      "translation": [
+        -0.94,
+        -0.94,
+        0.018
+      ]
+    },
+    {
+      "name": "DoorPivot_LF",
+      "translation": [
+        0.94,
+        0.94,
+        1.14
+      ],
+      "children": [
+        102,
+        97,
+        98
+      ]
+    },
+    {
+      "name": "DoorExterior_LF",
+      "mesh": 101,
+      "translation": [
+        -0.94,
+        -0.94,
+        -1.14
+      ]
+    },
+    {
+      "name": "DoorPivot_LR",
+      "translation": [
+        0.94,
+        0.94,
+        -0.018
+      ],
+      "children": [
+        104,
+        99,
+        100
+      ]
+    },
+    {
+      "name": "DoorExterior_LR",
+      "mesh": 102,
+      "translation": [
+        -0.94,
+        -0.94,
+        0.018
+      ]
+    },
+    {
+      "name": "DoorPivot_RF",
+      "translation": [
+        -0.94,
+        0.94,
+        1.14
+      ],
+      "children": [
+        106,
+        93,
+        94
+      ]
+    },
+    {
+      "name": "DoorExterior_RF",
+      "mesh": 103,
+      "translation": [
+        0.94,
+        -0.94,
+        -1.14
+      ]
+    },
+    {
+      "name": "DoorPivot_RR",
+      "translation": [
+        -0.94,
+        0.94,
+        -0.018
+      ],
+      "children": [
+        108,
+        95,
+        96
+      ]
+    },
+    {
+      "name": "DoorExterior_RR",
+      "mesh": 104,
+      "translation": [
+        0.94,
+        -0.94,
+        0.018
+      ]
+    },
+    {
+      "name": "FrontLightBandHousingMountReturn-lower",
+      "mesh": 105,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "FrontLightBandHousingMountReturn-upper",
+      "mesh": 106,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "RearLightBandHousingMountReturn-lower",
+      "mesh": 107,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "RearLightBandHousingMountReturn-upper",
+      "mesh": 108,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "FrontCornerHousing--1",
+      "mesh": 109,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "FrontCornerMountUpper--1",
+      "mesh": 110,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "FrontCornerMountLower--1",
+      "mesh": 111,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "FrontCornerHousing-1",
+      "mesh": 112,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "FrontCornerMountUpper-1",
+      "mesh": 113,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "FrontCornerMountLower-1",
+      "mesh": 114,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "ProjectorBodyMount--1",
+      "mesh": 115,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "ProjectorBodyMount-1",
+      "mesh": 116,
+      "extras": {
+        "batch": "assembly-1",
+        "hidden_support_inferred": true
+      }
+    },
+    {
+      "name": "ContinuousRoofGlass",
+      "mesh": 117
+    },
+    {
+      "name": "ContinuousRoofSeal",
+      "mesh": 118
+    },
+    {
+      "name": "ContinuousRoofFrame",
+      "mesh": 119
+    },
+    {
+      "name": "ContinuousFrontPaintEdge",
+      "mesh": 120,
+      "extras": {
+        "batch": "interfaces-2"
+      }
+    },
+    {
+      "name": "FrontPaintEdgeSideJoin-1",
+      "mesh": 121,
+      "extras": {
+        "batch": "interfaces-2"
+      }
+    },
+    {
+      "name": "FrontPaintEdgeSideJoin1",
+      "mesh": 122,
+      "extras": {
+        "batch": "interfaces-2"
+      }
+    },
+    {
+      "name": "CleanFrontUpperEdge",
+      "mesh": 123,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "CleanProjectorPaintRim-1",
+      "mesh": 124,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "CleanProjectorPaintRim1",
+      "mesh": 125,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "CleanRearUpperEdge",
+      "mesh": 126,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "RearLampSlotCarrier",
+      "mesh": 127,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "SourcePinholeCap0",
+      "mesh": 128,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "SourcePinholeCap1",
+      "mesh": 129,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "SourcePinholeCap2",
+      "mesh": 130,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "SourcePinholeCap3",
+      "mesh": 131,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "SourcePinholeCap4",
+      "mesh": 132,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "SourcePinholeCap5",
+      "mesh": 133,
+      "extras": {
+        "task": "all-edge-cleanup",
+        "source": "independent region construction"
+      }
+    },
+    {
+      "name": "ReferenceChargingCover",
+      "mesh": 134,
+      "extras": {
+        "source": "Primary side-view design reference; fixed closed cover; no opening capability claimed"
+      }
+    }
+  ],
+  "bindings": [
+    {
+      "id": "n0:p0",
+      "node_index": 0,
+      "node_name": "DriverWiper",
+      "mesh_index": 0,
+      "primitive_index": 0,
+      "material_index": 0,
+      "vertices": 160,
+      "triangles": 158,
+      "mode": 4,
+      "bounds_min": [
+        -0.6678450107574463,
+        1.303545594215393,
+        1.2913895845413208
+      ],
+      "bounds_max": [
+        0.11130750179290771,
+        1.328917145729065,
+        1.3988128900527954
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "rubber",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n1:p0",
+      "node_index": 1,
+      "node_name": "LidarOpticalWindow",
+      "mesh_index": 1,
+      "primitive_index": 0,
+      "material_index": 1,
+      "vertices": 287,
+      "triangles": 480,
+      "mode": 4,
+      "bounds_min": [
+        -0.10131323337554932,
+        1.788499116897583,
+        0.5874315500259399
+      ],
+      "bounds_max": [
+        0.10134907811880112,
+        1.8045357465744019,
+        0.5954212546348572
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "sensor",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n2:p0",
+      "node_index": 2,
+      "node_name": "PassengerWiper",
+      "mesh_index": 2,
+      "primitive_index": 0,
+      "material_index": 0,
+      "vertices": 160,
+      "triangles": 158,
+      "mode": 4,
+      "bounds_min": [
+        0.06678450107574463,
+        1.3316973447799683,
+        1.2531805038452148
+      ],
+      "bounds_max": [
+        0.6589403748512268,
+        1.347825527191162,
+        1.3688466548919678
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "rubber",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n3:p0",
+      "node_index": 3,
+      "node_name": "PreviewCabinBack",
+      "mesh_index": 3,
+      "primitive_index": 0,
+      "material_index": 2,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.6678450107574463,
+        -0.48975300788879395,
+        -0.033392250537872314
+      ],
+      "bounds_max": [
+        0.6678450107574463,
+        0.48975300788879395,
+        0.033392250537872314
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n4:p0",
+      "node_index": 4,
+      "node_name": "PreviewCabinFloor",
+      "mesh_index": 4,
+      "primitive_index": 0,
+      "material_index": 2,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.6678450107574463,
+        -0.05565375089645386,
+        -0.9572445154190063
+      ],
+      "bounds_max": [
+        0.6678450107574463,
+        0.05565375089645386,
+        0.9572445154190063
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n5:p0",
+      "node_index": 5,
+      "node_name": "PreviewCabinWall1",
+      "mesh_index": 5,
+      "primitive_index": 0,
+      "material_index": 2,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.02003535069525242,
+        -0.28939950466156006,
+        -0.8459370136260986
+      ],
+      "bounds_max": [
+        0.02003535069525242,
+        0.28939950466156006,
+        0.8459370136260986
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n6:p0",
+      "node_index": 6,
+      "node_name": "PreviewCabinWall-1",
+      "mesh_index": 6,
+      "primitive_index": 0,
+      "material_index": 2,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.02003535069525242,
+        -0.28939950466156006,
+        -0.8459370136260986
+      ],
+      "bounds_max": [
+        0.02003535069525242,
+        0.28939950466156006,
+        0.8459370136260986
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n7:p0",
+      "node_index": 7,
+      "node_name": "PreviewCeiling",
+      "mesh_index": 7,
+      "primitive_index": 0,
+      "material_index": 2,
+      "vertices": 1886,
+      "triangles": 3600,
+      "mode": 4,
+      "bounds_min": [
+        -0.6455835103988647,
+        1.6436257362365723,
+        -0.5565375089645386
+      ],
+      "bounds_max": [
+        0.6455835103988647,
+        1.8199316263198853,
+        0.534276008605957
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n8:p0",
+      "node_index": 8,
+      "node_name": "PreviewConsole",
+      "mesh_index": 8,
+      "primitive_index": 0,
+      "material_index": 2,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.06455834954977036,
+        -0.08904600143432617,
+        -0.3561840057373047
+      ],
+      "bounds_max": [
+        0.06455834954977036,
+        0.08904600143432617,
+        0.3561840057373047
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n9:p0",
+      "node_index": 9,
+      "node_name": "PreviewDashboard",
+      "mesh_index": 9,
+      "primitive_index": 0,
+      "material_index": 2,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.634452760219574,
+        -0.07123679667711258,
+        -0.2003535032272339
+      ],
+      "bounds_max": [
+        0.634452760219574,
+        0.07123679667711258,
+        0.2003535032272339
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n10:p0",
+      "node_index": 10,
+      "node_name": "PreviewFrontInnerLiner",
+      "mesh_index": 10,
+      "primitive_index": 0,
+      "material_index": 2,
+      "vertices": 4131,
+      "triangles": 8000,
+      "mode": 4,
+      "bounds_min": [
+        -0.8014140129089355,
+        1.218215823173523,
+        0.5565375089645386
+      ],
+      "bounds_max": [
+        0.8014140129089355,
+        1.5627799034118652,
+        1.4380929470062256
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n11:p0",
+      "node_index": 11,
+      "node_name": "PreviewHeadrest1",
+      "mesh_index": 11,
+      "primitive_index": 0,
+      "material_index": 3,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.1046290472149849,
+        -0.08459369838237762,
+        -0.05565375089645386
+      ],
+      "bounds_max": [
+        0.1046290472149849,
+        0.08459369838237762,
+        0.05565375089645386
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n12:p0",
+      "node_index": 12,
+      "node_name": "PreviewHeadrest-1",
+      "mesh_index": 12,
+      "primitive_index": 0,
+      "material_index": 3,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.1046290472149849,
+        -0.08459369838237762,
+        -0.05565375089645386
+      ],
+      "bounds_max": [
+        0.1046290472149849,
+        0.08459369838237762,
+        0.05565375089645386
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n13:p0",
+      "node_index": 13,
+      "node_name": "PreviewSeatBack1",
+      "mesh_index": 13,
+      "primitive_index": 0,
+      "material_index": 3,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.1380213052034378,
+        -0.23151959478855133,
+        -0.0779152512550354
+      ],
+      "bounds_max": [
+        0.1380213052034378,
+        0.23151959478855133,
+        0.0779152512550354
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n14:p0",
+      "node_index": 14,
+      "node_name": "PreviewSeatBack-1",
+      "mesh_index": 14,
+      "primitive_index": 0,
+      "material_index": 3,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.1380213052034378,
+        -0.23151959478855133,
+        -0.0779152512550354
+      ],
+      "bounds_max": [
+        0.1380213052034378,
+        0.23151959478855133,
+        0.0779152512550354
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n15:p0",
+      "node_index": 15,
+      "node_name": "PreviewSeatBase1",
+      "mesh_index": 15,
+      "primitive_index": 0,
+      "material_index": 3,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.14247359335422516,
+        -0.06233220174908638,
+        -0.18699659407138824
+      ],
+      "bounds_max": [
+        0.14247359335422516,
+        0.06233220174908638,
+        0.18699659407138824
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n16:p0",
+      "node_index": 16,
+      "node_name": "PreviewSeatBase-1",
+      "mesh_index": 16,
+      "primitive_index": 0,
+      "material_index": 3,
+      "vertices": 178,
+      "triangles": 300,
+      "mode": 4,
+      "bounds_min": [
+        -0.14247359335422516,
+        -0.06233220174908638,
+        -0.18699659407138824
+      ],
+      "bounds_max": [
+        0.14247359335422516,
+        0.06233220174908638,
+        0.18699659407138824
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n17:p0",
+      "node_index": 17,
+      "node_name": "PreviewSteeringWheel",
+      "mesh_index": 17,
+      "primitive_index": 0,
+      "material_index": 2,
+      "vertices": 637,
+      "triangles": 1152,
+      "mode": 4,
+      "bounds_min": [
+        -0.1291166990995407,
+        -0.013356899842619896,
+        -0.1291166990995407
+      ],
+      "bounds_max": [
+        0.1291166990995407,
+        0.013356899842619896,
+        0.1291166990995407
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "interior",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n18:p0",
+      "node_index": 18,
+      "node_name": "RebuiltLidarHousing",
+      "mesh_index": 18,
+      "primitive_index": 0,
+      "material_index": 4,
+      "vertices": 2209,
+      "triangles": 4414,
+      "mode": 4,
+      "bounds_min": [
+        -0.13359887897968292,
+        1.7615472078323364,
+        0.4295578896999359
+      ],
+      "bounds_max": [
+        0.13359887897968292,
+        1.8646103143692017,
+        0.5939872860908508
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "sensor",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n19:p0",
+      "node_index": 19,
+      "node_name": "RebuiltRoofAndPillarFrame",
+      "mesh_index": 19,
+      "primitive_index": 0,
+      "material_index": 5,
+      "vertices": 24645,
+      "triangles": 35853,
+      "mode": 4,
+      "bounds_min": [
+        -0.9091633558273315,
+        1.2623438835144043,
+        0.3440735936164856
+      ],
+      "bounds_max": [
+        0.9078200459480286,
+        1.844632863998413,
+        1.491310954093933
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n20:p0",
+      "node_index": 20,
+      "node_name": "RebuiltWindshield",
+      "mesh_index": 20,
+      "primitive_index": 0,
+      "material_index": 6,
+      "vertices": 32522,
+      "triangles": 32000,
+      "mode": 4,
+      "bounds_min": [
+        -0.8426587581634521,
+        1.2675743103027344,
+        0.5411528944969177
+      ],
+      "bounds_max": [
+        0.8426587581634521,
+        1.754217505455017,
+        1.438036322593689
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "glass",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n21:p0",
+      "node_index": 21,
+      "node_name": "VehicleExterior",
+      "mesh_index": 21,
+      "primitive_index": 0,
+      "material_index": 7,
+      "vertices": 1105617,
+      "triangles": 1166580,
+      "mode": 4,
+      "bounds_min": [
+        -1.0891305208206177,
+        -2.2339222027767391e-07,
+        -2.5049824714660645
+      ],
+      "bounds_max": [
+        1.086534857749939,
+        1.90249502658844,
+        2.6957573890686035
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n21:p1",
+      "node_index": 21,
+      "node_name": "VehicleExterior",
+      "mesh_index": 21,
+      "primitive_index": 1,
+      "material_index": 7,
+      "vertices": 14255,
+      "triangles": 11503,
+      "mode": 4,
+      "bounds_min": [
+        -0.9404061436653137,
+        1.2104933261871338,
+        -0.6842871904373169
+      ],
+      "bounds_max": [
+        0.9776772856712341,
+        1.8619647026062012,
+        1.7376947402954102
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n22:p0",
+      "node_index": 22,
+      "node_name": "WindshieldPerimeterSeal",
+      "mesh_index": 22,
+      "primitive_index": 0,
+      "material_index": 0,
+      "vertices": 3640,
+      "triangles": 6240,
+      "mode": 4,
+      "bounds_min": [
+        -0.8496922254562378,
+        1.2691575288772583,
+        0.5387038588523865
+      ],
+      "bounds_max": [
+        0.8496922254562378,
+        1.7574856281280518,
+        1.4453827142715454
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "rubber",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n23:p0",
+      "node_index": 23,
+      "node_name": "WindshieldInnerFrit",
+      "mesh_index": 23,
+      "primitive_index": 0,
+      "material_index": 9,
+      "vertices": 1040,
+      "triangles": 1040,
+      "mode": 4,
+      "bounds_min": [
+        -0.8426587581634521,
+        1.2718088626861572,
+        0.542552649974823
+      ],
+      "bounds_max": [
+        0.8426587581634521,
+        1.7553291320800781,
+        1.438036322593689
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "rubber",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n24:p0",
+      "node_index": 24,
+      "node_name": "FrontRightRimLip",
+      "mesh_index": 24,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 1344,
+      "triangles": 2304,
+      "mode": 4,
+      "bounds_min": [
+        -1.0360000133514404,
+        0.12349150329828262,
+        1.3167078495025635
+      ],
+      "bounds_max": [
+        -0.9549999833106995,
+        0.8114914894104004,
+        2.0047078132629395
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n25:p0",
+      "node_index": 25,
+      "node_name": "FrontRightRimBarrel",
+      "mesh_index": 25,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 768,
+      "triangles": 1152,
+      "mode": 4,
+      "bounds_min": [
+        -1.0230000019073486,
+        0.14649149775505066,
+        1.339707851409912
+      ],
+      "bounds_max": [
+        -0.9300000071525574,
+        0.7884914875030518,
+        1.9817079305648804
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n26:p0",
+      "node_index": 26,
+      "node_name": "FrontRightBrakeDisc",
+      "mesh_index": 26,
+      "primitive_index": 0,
+      "material_index": 12,
+      "vertices": 384,
+      "triangles": 384,
+      "mode": 4,
+      "bounds_min": [
+        -0.9760000109672546,
+        0.20549149811267853,
+        1.3987078666687012
+      ],
+      "bounds_max": [
+        -0.9760000109672546,
+        0.7294914722442627,
+        1.9227079153060913
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n27:p0",
+      "node_index": 27,
+      "node_name": "FrontRightSplitSpokeFace",
+      "mesh_index": 27,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 7220,
+      "triangles": 13320,
+      "mode": 4,
+      "bounds_min": [
+        -1.026147723197937,
+        0.14449597895145416,
+        1.3377087116241455
+      ],
+      "bounds_max": [
+        -0.9944598078727722,
+        0.7904869914054871,
+        1.983707070350647
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n28:p0",
+      "node_index": 28,
+      "node_name": "FrontRightSplitSpokes",
+      "mesh_index": 28,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 5320,
+      "triangles": 8880,
+      "mode": 4,
+      "bounds_min": [
+        -1.0263582468032837,
+        0.1444936841726303,
+        1.3377126455307007
+      ],
+      "bounds_max": [
+        -0.9952598214149475,
+        0.7904893159866333,
+        1.9837031364440918
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n29:p0",
+      "node_index": 29,
+      "node_name": "FrontRightSpokeSidewalls",
+      "mesh_index": 29,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 1520,
+      "triangles": 1480,
+      "mode": 4,
+      "bounds_min": [
+        -1.0250000953674316,
+        0.14483080804347992,
+        1.3393216133117676
+      ],
+      "bounds_max": [
+        -0.976459801197052,
+        0.7901521921157837,
+        1.9820942878723145
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n30:p0",
+      "node_index": 30,
+      "node_name": "FrontRightCenterCap",
+      "mesh_index": 30,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 768,
+      "triangles": 1152,
+      "mode": 4,
+      "bounds_min": [
+        -1.0090000629425049,
+        0.39649149775505066,
+        1.589707851409912
+      ],
+      "bounds_max": [
+        -0.9909999966621399,
+        0.5384914875030518,
+        1.7317079305648804
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n31:p0",
+      "node_index": 31,
+      "node_name": "FrontRightBoltCollars",
+      "mesh_index": 31,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        -1.0130000114440918,
+        0.41488972306251526,
+        1.6150660514831543
+      ],
+      "bounds_max": [
+        -1.0100001096725464,
+        0.5200932621955872,
+        1.7157078981399536
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n32:p0",
+      "node_index": 32,
+      "node_name": "FrontLeftRimLip",
+      "mesh_index": 32,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 1344,
+      "triangles": 2304,
+      "mode": 4,
+      "bounds_min": [
+        0.9549999833106995,
+        0.12349150329828262,
+        1.3167078495025635
+      ],
+      "bounds_max": [
+        1.0360000133514404,
+        0.8114914894104004,
+        2.0047078132629395
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n33:p0",
+      "node_index": 33,
+      "node_name": "FrontLeftRimBarrel",
+      "mesh_index": 33,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 768,
+      "triangles": 1152,
+      "mode": 4,
+      "bounds_min": [
+        0.9300000071525574,
+        0.14649149775505066,
+        1.339707851409912
+      ],
+      "bounds_max": [
+        1.0230000019073486,
+        0.7884914875030518,
+        1.9817079305648804
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n34:p0",
+      "node_index": 34,
+      "node_name": "FrontLeftBrakeDisc",
+      "mesh_index": 34,
+      "primitive_index": 0,
+      "material_index": 12,
+      "vertices": 384,
+      "triangles": 384,
+      "mode": 4,
+      "bounds_min": [
+        0.9760000109672546,
+        0.20549149811267853,
+        1.3987078666687012
+      ],
+      "bounds_max": [
+        0.9760000109672546,
+        0.7294914722442627,
+        1.9227079153060913
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n35:p0",
+      "node_index": 35,
+      "node_name": "FrontLeftSplitSpokeFace",
+      "mesh_index": 35,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 7220,
+      "triangles": 13320,
+      "mode": 4,
+      "bounds_min": [
+        0.9944598078727722,
+        0.14449597895145416,
+        1.3377087116241455
+      ],
+      "bounds_max": [
+        1.026147723197937,
+        0.7904869914054871,
+        1.983707070350647
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n36:p0",
+      "node_index": 36,
+      "node_name": "FrontLeftSplitSpokes",
+      "mesh_index": 36,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 5320,
+      "triangles": 8880,
+      "mode": 4,
+      "bounds_min": [
+        0.9952598214149475,
+        0.1444936841726303,
+        1.3377126455307007
+      ],
+      "bounds_max": [
+        1.0263582468032837,
+        0.7904893159866333,
+        1.9837031364440918
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n37:p0",
+      "node_index": 37,
+      "node_name": "FrontLeftSpokeSidewalls",
+      "mesh_index": 37,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 1520,
+      "triangles": 1480,
+      "mode": 4,
+      "bounds_min": [
+        0.976459801197052,
+        0.14483080804347992,
+        1.3393216133117676
+      ],
+      "bounds_max": [
+        1.0250000953674316,
+        0.7901521921157837,
+        1.9820942878723145
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n38:p0",
+      "node_index": 38,
+      "node_name": "FrontLeftCenterCap",
+      "mesh_index": 38,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 768,
+      "triangles": 1152,
+      "mode": 4,
+      "bounds_min": [
+        0.9909999966621399,
+        0.39649149775505066,
+        1.589707851409912
+      ],
+      "bounds_max": [
+        1.0090000629425049,
+        0.5384914875030518,
+        1.7317079305648804
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n39:p0",
+      "node_index": 39,
+      "node_name": "FrontLeftBoltCollars",
+      "mesh_index": 39,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        1.0100001096725464,
+        0.41488972306251526,
+        1.6150660514831543
+      ],
+      "bounds_max": [
+        1.0130000114440918,
+        0.5200932621955872,
+        1.7157078981399536
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n40:p0",
+      "node_index": 40,
+      "node_name": "RearRightRimLip",
+      "mesh_index": 40,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 1344,
+      "triangles": 2304,
+      "mode": 4,
+      "bounds_min": [
+        -1.0360000133514404,
+        0.12349150329828262,
+        -1.7108560800552368
+      ],
+      "bounds_max": [
+        -0.9549999833106995,
+        0.8114914894104004,
+        -1.0228561162948608
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n41:p0",
+      "node_index": 41,
+      "node_name": "RearRightRimBarrel",
+      "mesh_index": 41,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 768,
+      "triangles": 1152,
+      "mode": 4,
+      "bounds_min": [
+        -1.0230000019073486,
+        0.14649149775505066,
+        -1.6878560781478882
+      ],
+      "bounds_max": [
+        -0.9300000071525574,
+        0.7884914875030518,
+        -1.0458561182022095
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n42:p0",
+      "node_index": 42,
+      "node_name": "RearRightBrakeDisc",
+      "mesh_index": 42,
+      "primitive_index": 0,
+      "material_index": 12,
+      "vertices": 384,
+      "triangles": 384,
+      "mode": 4,
+      "bounds_min": [
+        -0.9760000109672546,
+        0.20549149811267853,
+        -1.6288560628890991
+      ],
+      "bounds_max": [
+        -0.9760000109672546,
+        0.7294914722442627,
+        -1.1048561334609985
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n43:p0",
+      "node_index": 43,
+      "node_name": "RearRightSplitSpokeFace",
+      "mesh_index": 43,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 7220,
+      "triangles": 13320,
+      "mode": 4,
+      "bounds_min": [
+        -1.026147723197937,
+        0.14449597895145416,
+        -1.6898553371429443
+      ],
+      "bounds_max": [
+        -0.9944598078727722,
+        0.7904869914054871,
+        -1.0438568592071533
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n44:p0",
+      "node_index": 44,
+      "node_name": "RearRightSplitSpokes",
+      "mesh_index": 44,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 5320,
+      "triangles": 8880,
+      "mode": 4,
+      "bounds_min": [
+        -1.0263582468032837,
+        0.1444936841726303,
+        -1.6898514032363892
+      ],
+      "bounds_max": [
+        -0.9952598214149475,
+        0.7904893159866333,
+        -1.0438607931137085
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n45:p0",
+      "node_index": 45,
+      "node_name": "RearRightSpokeSidewalls",
+      "mesh_index": 45,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 1520,
+      "triangles": 1480,
+      "mode": 4,
+      "bounds_min": [
+        -1.0250000953674316,
+        0.14483080804347992,
+        -1.6882424354553223
+      ],
+      "bounds_max": [
+        -0.976459801197052,
+        0.7901521921157837,
+        -1.0454697608947754
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n46:p0",
+      "node_index": 46,
+      "node_name": "RearRightCenterCap",
+      "mesh_index": 46,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 768,
+      "triangles": 1152,
+      "mode": 4,
+      "bounds_min": [
+        -1.0090000629425049,
+        0.39649149775505066,
+        -1.4378560781478882
+      ],
+      "bounds_max": [
+        -0.9909999966621399,
+        0.5384914875030518,
+        -1.2958561182022095
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n47:p0",
+      "node_index": 47,
+      "node_name": "RearRightBoltCollars",
+      "mesh_index": 47,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        -1.0130000114440918,
+        0.41488972306251526,
+        -1.412497878074646
+      ],
+      "bounds_max": [
+        -1.0100001096725464,
+        0.5200932621955872,
+        -1.3118561506271362
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n48:p0",
+      "node_index": 48,
+      "node_name": "RearLeftRimLip",
+      "mesh_index": 48,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 1344,
+      "triangles": 2304,
+      "mode": 4,
+      "bounds_min": [
+        0.9549999833106995,
+        0.12349150329828262,
+        -1.7108560800552368
+      ],
+      "bounds_max": [
+        1.0360000133514404,
+        0.8114914894104004,
+        -1.0228561162948608
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n49:p0",
+      "node_index": 49,
+      "node_name": "RearLeftRimBarrel",
+      "mesh_index": 49,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 768,
+      "triangles": 1152,
+      "mode": 4,
+      "bounds_min": [
+        0.9300000071525574,
+        0.14649149775505066,
+        -1.6878560781478882
+      ],
+      "bounds_max": [
+        1.0230000019073486,
+        0.7884914875030518,
+        -1.0458561182022095
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n50:p0",
+      "node_index": 50,
+      "node_name": "RearLeftBrakeDisc",
+      "mesh_index": 50,
+      "primitive_index": 0,
+      "material_index": 12,
+      "vertices": 384,
+      "triangles": 384,
+      "mode": 4,
+      "bounds_min": [
+        0.9760000109672546,
+        0.20549149811267853,
+        -1.6288560628890991
+      ],
+      "bounds_max": [
+        0.9760000109672546,
+        0.7294914722442627,
+        -1.1048561334609985
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n51:p0",
+      "node_index": 51,
+      "node_name": "RearLeftSplitSpokeFace",
+      "mesh_index": 51,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 7220,
+      "triangles": 13320,
+      "mode": 4,
+      "bounds_min": [
+        0.9944598078727722,
+        0.14449597895145416,
+        -1.6898553371429443
+      ],
+      "bounds_max": [
+        1.026147723197937,
+        0.7904869914054871,
+        -1.0438568592071533
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n52:p0",
+      "node_index": 52,
+      "node_name": "RearLeftSplitSpokes",
+      "mesh_index": 52,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 5320,
+      "triangles": 8880,
+      "mode": 4,
+      "bounds_min": [
+        0.9952598214149475,
+        0.1444936841726303,
+        -1.6898514032363892
+      ],
+      "bounds_max": [
+        1.0263582468032837,
+        0.7904893159866333,
+        -1.0438607931137085
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n53:p0",
+      "node_index": 53,
+      "node_name": "RearLeftSpokeSidewalls",
+      "mesh_index": 53,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 1520,
+      "triangles": 1480,
+      "mode": 4,
+      "bounds_min": [
+        0.976459801197052,
+        0.14483080804347992,
+        -1.6882424354553223
+      ],
+      "bounds_max": [
+        1.0250000953674316,
+        0.7901521921157837,
+        -1.0454697608947754
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n54:p0",
+      "node_index": 54,
+      "node_name": "RearLeftCenterCap",
+      "mesh_index": 54,
+      "primitive_index": 0,
+      "material_index": 11,
+      "vertices": 768,
+      "triangles": 1152,
+      "mode": 4,
+      "bounds_min": [
+        0.9909999966621399,
+        0.39649149775505066,
+        -1.4378560781478882
+      ],
+      "bounds_max": [
+        1.0090000629425049,
+        0.5384914875030518,
+        -1.2958561182022095
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n55:p0",
+      "node_index": 55,
+      "node_name": "RearLeftBoltCollars",
+      "mesh_index": 55,
+      "primitive_index": 0,
+      "material_index": 10,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        1.0100001096725464,
+        0.41488972306251526,
+        -1.412497878074646
+      ],
+      "bounds_max": [
+        1.0130000114440918,
+        0.5200932621955872,
+        -1.3118561506271362
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "wheel",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n56:p0",
+      "node_index": 56,
+      "node_name": "FrontProjectorTrim-10.827",
+      "mesh_index": 56,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 256,
+      "triangles": 384,
+      "mode": 4,
+      "bounds_min": [
+        -0.9320695996284485,
+        0.7918242812156677,
+        2.3175766468048096
+      ],
+      "bounds_max": [
+        -0.8875805139541626,
+        0.8620185256004333,
+        2.378950834274292
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n57:p0",
+      "node_index": 57,
+      "node_name": "FrontProjectorLens-10.827",
+      "mesh_index": 57,
+      "primitive_index": 0,
+      "material_index": 13,
+      "vertices": 768,
+      "triangles": 1408,
+      "mode": 4,
+      "bounds_min": [
+        -0.928115725517273,
+        0.7987965941429138,
+        2.326735496520996
+      ],
+      "bounds_max": [
+        -0.8964847326278687,
+        0.8545747995376587,
+        2.3731491565704346
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n58:p0",
+      "node_index": 58,
+      "node_name": "FrontProjectorLight-10.827",
+      "mesh_index": 58,
+      "primitive_index": 0,
+      "material_index": 17,
+      "vertices": 128,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        -0.9287912845611572,
+        0.8147503137588501,
+        2.347795009613037
+      ],
+      "bounds_max": [
+        -0.916364848613739,
+        0.8366632461547852,
+        2.3660287857055664
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n59:p0",
+      "node_index": 59,
+      "node_name": "FrontProjectorTrim-10.691",
+      "mesh_index": 59,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 256,
+      "triangles": 384,
+      "mode": 4,
+      "bounds_min": [
+        -0.9318004250526428,
+        0.6557944416999817,
+        2.2844083309173584
+      ],
+      "bounds_max": [
+        -0.8878611922264099,
+        0.7259750962257385,
+        2.3463428020477295
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n60:p0",
+      "node_index": 60,
+      "node_name": "FrontProjectorLens-10.691",
+      "mesh_index": 60,
+      "primitive_index": 0,
+      "material_index": 13,
+      "vertices": 768,
+      "triangles": 1408,
+      "mode": 4,
+      "bounds_min": [
+        -0.9279305934906006,
+        0.6627433896064758,
+        2.29354190826416
+      ],
+      "bounds_max": [
+        -0.8967413902282715,
+        0.718334972858429,
+        2.3404760360717773
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n61:p0",
+      "node_index": 61,
+      "node_name": "FrontProjectorLight-10.691",
+      "mesh_index": 61,
+      "primitive_index": 0,
+      "material_index": 17,
+      "vertices": 128,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        -0.9287938475608826,
+        0.6781843304634094,
+        2.314572334289551
+      ],
+      "bounds_max": [
+        -0.9165509939193726,
+        0.7000238299369812,
+        2.333010673522949
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n62:p0",
+      "node_index": 62,
+      "node_name": "FrontProjectorTrim10.827",
+      "mesh_index": 62,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 256,
+      "triangles": 384,
+      "mode": 4,
+      "bounds_min": [
+        0.8875805139541626,
+        0.7918242812156677,
+        2.3175766468048096
+      ],
+      "bounds_max": [
+        0.9320695996284485,
+        0.8620185256004333,
+        2.378950834274292
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n63:p0",
+      "node_index": 63,
+      "node_name": "FrontProjectorLens10.827",
+      "mesh_index": 63,
+      "primitive_index": 0,
+      "material_index": 13,
+      "vertices": 768,
+      "triangles": 1408,
+      "mode": 4,
+      "bounds_min": [
+        0.8964847326278687,
+        0.7987965941429138,
+        2.326735496520996
+      ],
+      "bounds_max": [
+        0.928115725517273,
+        0.8545747995376587,
+        2.3731491565704346
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n64:p0",
+      "node_index": 64,
+      "node_name": "FrontProjectorLight10.827",
+      "mesh_index": 64,
+      "primitive_index": 0,
+      "material_index": 17,
+      "vertices": 128,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        0.916364848613739,
+        0.8147503137588501,
+        2.347795009613037
+      ],
+      "bounds_max": [
+        0.9287912845611572,
+        0.8366632461547852,
+        2.3660287857055664
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n65:p0",
+      "node_index": 65,
+      "node_name": "FrontProjectorTrim10.691",
+      "mesh_index": 65,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 256,
+      "triangles": 384,
+      "mode": 4,
+      "bounds_min": [
+        0.8878611922264099,
+        0.6557944416999817,
+        2.2844083309173584
+      ],
+      "bounds_max": [
+        0.9318004250526428,
+        0.7259750962257385,
+        2.3463428020477295
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n66:p0",
+      "node_index": 66,
+      "node_name": "FrontProjectorLens10.691",
+      "mesh_index": 66,
+      "primitive_index": 0,
+      "material_index": 13,
+      "vertices": 768,
+      "triangles": 1408,
+      "mode": 4,
+      "bounds_min": [
+        0.8967413902282715,
+        0.6627433896064758,
+        2.29354190826416
+      ],
+      "bounds_max": [
+        0.9279305934906006,
+        0.718334972858429,
+        2.3404760360717773
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n67:p0",
+      "node_index": 67,
+      "node_name": "FrontProjectorLight10.691",
+      "mesh_index": 67,
+      "primitive_index": 0,
+      "material_index": 17,
+      "vertices": 128,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        0.9165509939193726,
+        0.6781843304634094,
+        2.314572334289551
+      ],
+      "bounds_max": [
+        0.9287938475608826,
+        0.7000238299369812,
+        2.333010673522949
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n68:p0",
+      "node_index": 68,
+      "node_name": "ContinuousFrontLED",
+      "mesh_index": 68,
+      "primitive_index": 0,
+      "material_index": 15,
+      "vertices": 322,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        -0.925000011920929,
+        1.0755000114440918,
+        2.212131977081299
+      ],
+      "bounds_max": [
+        0.925000011920929,
+        1.0844999551773071,
+        2.566971778869629
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n69:p0",
+      "node_index": 69,
+      "node_name": "ContinuousTailLED",
+      "mesh_index": 69,
+      "primitive_index": 0,
+      "material_index": 16,
+      "vertices": 322,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        -0.925000011920929,
+        1.1994999647140503,
+        -2.4922871589660645
+      ],
+      "bounds_max": [
+        0.925000011920929,
+        1.2085000276565552,
+        -2.242729902267456
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n70:p0",
+      "node_index": 70,
+      "node_name": "SourceFittedFrontFascia",
+      "mesh_index": 70,
+      "primitive_index": 0,
+      "material_index": 18,
+      "vertices": 144422,
+      "triangles": 59302,
+      "mode": 4,
+      "bounds_min": [
+        -1.0049999952316284,
+        0.5920000076293945,
+        2.1152877807617188
+      ],
+      "bounds_max": [
+        1.0049999952316284,
+        1.0470000505447388,
+        2.6962180137634277
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n73:p0",
+      "node_index": 73,
+      "node_name": "FrontLightBandHousing",
+      "mesh_index": 73,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 2865,
+      "triangles": 5320,
+      "mode": 4,
+      "bounds_min": [
+        -0.9480000138282776,
+        1.0460000038146973,
+        2.1720361709594727
+      ],
+      "bounds_max": [
+        0.9480000138282776,
+        1.1139999628067017,
+        2.562971830368042
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n74:p0",
+      "node_index": 74,
+      "node_name": "RearLightBandHousing",
+      "mesh_index": 74,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 2865,
+      "triangles": 5320,
+      "mode": 4,
+      "bounds_min": [
+        -0.9480000138282776,
+        1.1649999618530273,
+        -2.4882872104644775
+      ],
+      "bounds_max": [
+        0.9480000138282776,
+        1.2430000305175781,
+        -2.215625762939453
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n75:p0",
+      "node_index": 75,
+      "node_name": "ProjectorCavityBacking-1",
+      "mesh_index": 75,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 161,
+      "triangles": 160,
+      "mode": 4,
+      "bounds_min": [
+        -0.9929999709129333,
+        0.5609999895095825,
+        2.15781307220459
+      ],
+      "bounds_max": [
+        -0.824999988079071,
+        0.9129999876022339,
+        2.447150945663452
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n76:p0",
+      "node_index": 76,
+      "node_name": "ProjectorCavityReturn-1",
+      "mesh_index": 76,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        -0.9929999709129333,
+        0.5609999895095825,
+        2.0578131675720215
+      ],
+      "bounds_max": [
+        -0.824999988079071,
+        0.9129999876022339,
+        2.447150945663452
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n77:p0",
+      "node_index": 77,
+      "node_name": "ProjectorCavityBezel-1",
+      "mesh_index": 77,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        -0.9929999709129333,
+        0.5609999895095825,
+        2.159813165664673
+      ],
+      "bounds_max": [
+        -0.824999988079071,
+        0.9129999876022339,
+        2.449151039123535
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n78:p0",
+      "node_index": 78,
+      "node_name": "ProjectorCavityBacking1",
+      "mesh_index": 78,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 161,
+      "triangles": 160,
+      "mode": 4,
+      "bounds_min": [
+        0.824999988079071,
+        0.5609999895095825,
+        2.15781307220459
+      ],
+      "bounds_max": [
+        0.9929999709129333,
+        0.9129999876022339,
+        2.4473307132720947
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n79:p0",
+      "node_index": 79,
+      "node_name": "ProjectorCavityReturn1",
+      "mesh_index": 79,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        0.824999988079071,
+        0.5609999895095825,
+        2.0578131675720215
+      ],
+      "bounds_max": [
+        0.9929999709129333,
+        0.9129999876022339,
+        2.4473307132720947
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n80:p0",
+      "node_index": 80,
+      "node_name": "ProjectorCavityBezel1",
+      "mesh_index": 80,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        0.824999988079071,
+        0.5609999895095825,
+        2.159813165664673
+      ],
+      "bounds_max": [
+        0.9929999709129333,
+        0.9129999876022339,
+        2.4493308067321777
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n81:p0",
+      "node_index": 81,
+      "node_name": "ProjectorPrecisionSurround-10.827",
+      "mesh_index": 81,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 512,
+      "triangles": 768,
+      "mode": 4,
+      "bounds_min": [
+        -0.9364299178123474,
+        0.7830575108528137,
+        2.3137331008911133
+      ],
+      "bounds_max": [
+        -0.884442925453186,
+        0.8707853555679321,
+        2.384794235229492
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n82:p0",
+      "node_index": 82,
+      "node_name": "ProjectorPrecisionSurround-10.691",
+      "mesh_index": 82,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 512,
+      "triangles": 768,
+      "mode": 4,
+      "bounds_min": [
+        -0.9370430111885071,
+        0.6471777558326721,
+        2.2797930240631104
+      ],
+      "bounds_max": [
+        -0.8838220834732056,
+        0.7345917820930481,
+        2.3529582023620605
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n83:p0",
+      "node_index": 83,
+      "node_name": "ProjectorVerticalAccent-1-0.053",
+      "mesh_index": 83,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 180,
+      "triangles": 178,
+      "mode": 4,
+      "bounds_min": [
+        -0.9638000130653381,
+        0.628000020980835,
+        2.216327428817749
+      ],
+      "bounds_max": [
+        -0.9602000117301941,
+        0.8820000290870667,
+        2.26990008354187
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n84:p0",
+      "node_index": 84,
+      "node_name": "ProjectorVerticalAccent-10.053",
+      "mesh_index": 84,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 180,
+      "triangles": 178,
+      "mode": 4,
+      "bounds_min": [
+        -0.8578000068664551,
+        0.628000020980835,
+        2.3822977542877197
+      ],
+      "bounds_max": [
+        -0.854200005531311,
+        0.8820000290870667,
+        2.4246985912323
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n85:p0",
+      "node_index": 85,
+      "node_name": "ProjectorPrecisionSurround10.827",
+      "mesh_index": 85,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 512,
+      "triangles": 768,
+      "mode": 4,
+      "bounds_min": [
+        0.884442925453186,
+        0.7830575108528137,
+        2.3137331008911133
+      ],
+      "bounds_max": [
+        0.9364299178123474,
+        0.8707853555679321,
+        2.384794235229492
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n86:p0",
+      "node_index": 86,
+      "node_name": "ProjectorPrecisionSurround10.691",
+      "mesh_index": 86,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 512,
+      "triangles": 768,
+      "mode": 4,
+      "bounds_min": [
+        0.8838220834732056,
+        0.6471777558326721,
+        2.2797930240631104
+      ],
+      "bounds_max": [
+        0.9370430111885071,
+        0.7345917820930481,
+        2.3529582023620605
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n87:p0",
+      "node_index": 87,
+      "node_name": "ProjectorVerticalAccent1-0.053",
+      "mesh_index": 87,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 180,
+      "triangles": 178,
+      "mode": 4,
+      "bounds_min": [
+        0.854200005531311,
+        0.628000020980835,
+        2.3822977542877197
+      ],
+      "bounds_max": [
+        0.8578000068664551,
+        0.8820000290870667,
+        2.4246985912323
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n88:p0",
+      "node_index": 88,
+      "node_name": "ProjectorVerticalAccent10.053",
+      "mesh_index": 88,
+      "primitive_index": 0,
+      "material_index": 14,
+      "vertices": 180,
+      "triangles": 178,
+      "mode": 4,
+      "bounds_min": [
+        0.9602000117301941,
+        0.628000020980835,
+        2.216327428817749
+      ],
+      "bounds_max": [
+        0.9638000130653381,
+        0.8820000290870667,
+        2.26990008354187
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "metal",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n89:p0",
+      "node_index": 89,
+      "node_name": "RearSecondaryOptic-1",
+      "mesh_index": 89,
+      "primitive_index": 0,
+      "material_index": 16,
+      "vertices": 112,
+      "triangles": 110,
+      "mode": 4,
+      "bounds_min": [
+        -0.925000011920929,
+        1.1820000410079956,
+        -2.411587953567505
+      ],
+      "bounds_max": [
+        -0.6399999856948853,
+        1.187999963760376,
+        -2.2456729412078857
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n90:p0",
+      "node_index": 90,
+      "node_name": "FrontAmberCorner-1",
+      "mesh_index": 90,
+      "primitive_index": 0,
+      "material_index": 21,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        -0.9430000185966492,
+        1.0759999752044678,
+        2.187023639678955
+      ],
+      "bounds_max": [
+        -0.8989999890327454,
+        1.0839999914169312,
+        2.2522618770599365
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n91:p0",
+      "node_index": 91,
+      "node_name": "RearSecondaryOptic1",
+      "mesh_index": 91,
+      "primitive_index": 0,
+      "material_index": 16,
+      "vertices": 112,
+      "triangles": 110,
+      "mode": 4,
+      "bounds_min": [
+        0.6399999856948853,
+        1.1820000410079956,
+        -2.4104201793670654
+      ],
+      "bounds_max": [
+        0.925000011920929,
+        1.187999963760376,
+        -2.243729829788208
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n92:p0",
+      "node_index": 92,
+      "node_name": "FrontAmberCorner1",
+      "mesh_index": 92,
+      "primitive_index": 0,
+      "material_index": 21,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        0.8989999890327454,
+        1.0759999752044678,
+        2.18554949760437
+      ],
+      "bounds_max": [
+        0.9430000185966492,
+        1.0839999914169312,
+        2.2512569427490234
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "light_lens",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n93:p0",
+      "node_index": 93,
+      "node_name": "FrontRightHandleGasket",
+      "mesh_index": 93,
+      "primitive_index": 0,
+      "material_index": 23,
+      "vertices": 128,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        -1.040300965309143,
+        1.0915199518203735,
+        0.12421000003814697
+      ],
+      "bounds_max": [
+        -1.0291285514831543,
+        1.1244800090789795,
+        0.31578999757766724
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "rubber",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n94:p0",
+      "node_index": 94,
+      "node_name": "FrontRightHandleFace",
+      "mesh_index": 94,
+      "primitive_index": 0,
+      "material_index": 22,
+      "vertices": 321,
+      "triangles": 576,
+      "mode": 4,
+      "bounds_min": [
+        -1.04129159450531,
+        1.0920000076293945,
+        0.12700000405311584
+      ],
+      "bounds_max": [
+        -1.0296306610107422,
+        1.1239999532699585,
+        0.31299999356269836
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n95:p0",
+      "node_index": 95,
+      "node_name": "RearRightHandleGasket",
+      "mesh_index": 95,
+      "primitive_index": 0,
+      "material_index": 23,
+      "vertices": 128,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        -1.0398792028427124,
+        1.120519995689392,
+        -1.15461003780365
+      ],
+      "bounds_max": [
+        -1.0290628671646118,
+        1.153480052947998,
+        -0.9753900170326233
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "rubber",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n96:p0",
+      "node_index": 96,
+      "node_name": "RearRightHandleFace",
+      "mesh_index": 96,
+      "primitive_index": 0,
+      "material_index": 22,
+      "vertices": 321,
+      "triangles": 576,
+      "mode": 4,
+      "bounds_min": [
+        -1.042687177658081,
+        1.121000051498413,
+        -1.1519999504089355
+      ],
+      "bounds_max": [
+        -1.0294773578643799,
+        1.152999997138977,
+        -0.9779999852180481
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n97:p0",
+      "node_index": 97,
+      "node_name": "FrontLeftHandleGasket",
+      "mesh_index": 97,
+      "primitive_index": 0,
+      "material_index": 23,
+      "vertices": 128,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        1.029083251953125,
+        1.0915199518203735,
+        0.12421000003814697
+      ],
+      "bounds_max": [
+        1.0403250455856323,
+        1.1244800090789795,
+        0.31578999757766724
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "rubber",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n98:p0",
+      "node_index": 98,
+      "node_name": "FrontLeftHandleFace",
+      "mesh_index": 98,
+      "primitive_index": 0,
+      "material_index": 22,
+      "vertices": 321,
+      "triangles": 576,
+      "mode": 4,
+      "bounds_min": [
+        1.029588222503662,
+        1.0920000076293945,
+        0.12700000405311584
+      ],
+      "bounds_max": [
+        1.0413172245025635,
+        1.1239999532699585,
+        0.31299999356269836
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n99:p0",
+      "node_index": 99,
+      "node_name": "RearLeftHandleGasket",
+      "mesh_index": 99,
+      "primitive_index": 0,
+      "material_index": 23,
+      "vertices": 128,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        1.0293277502059937,
+        1.120519995689392,
+        -1.15461003780365
+      ],
+      "bounds_max": [
+        1.0404472351074219,
+        1.153480052947998,
+        -0.9753900170326233
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "rubber",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n100:p0",
+      "node_index": 100,
+      "node_name": "RearLeftHandleFace",
+      "mesh_index": 100,
+      "primitive_index": 0,
+      "material_index": 22,
+      "vertices": 321,
+      "triangles": 576,
+      "mode": 4,
+      "bounds_min": [
+        1.0297601222991943,
+        1.121000051498413,
+        -1.1519999504089355
+      ],
+      "bounds_max": [
+        1.0425983667373657,
+        1.152999997138977,
+        -0.9779999852180481
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Existing V17 structure, source material record and case README; fused VehicleSurface requires preserved runtime adapter, not automatic segmentation"
+    },
+    {
+      "id": "n102:p0",
+      "node_index": 102,
+      "node_name": "DoorExterior_LF",
+      "mesh_index": 101,
+      "primitive_index": 0,
+      "material_index": 7,
+      "vertices": 21138,
+      "triangles": 29064,
+      "mode": 4,
+      "bounds_min": [
+        0.7534499168395996,
+        0.47999998927116394,
+        0.017999999225139618
+      ],
+      "bounds_max": [
+        1.1973648071289062,
+        1.7400000095367432,
+        1.1722400188446045
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Clipped from the existing exterior along its authored door boundaries, preserving interpolated UVs and source semantic normals."
+    },
+    {
+      "id": "n102:p1",
+      "node_index": 102,
+      "node_name": "DoorExterior_LF",
+      "mesh_index": 101,
+      "primitive_index": 1,
+      "material_index": 7,
+      "vertices": 3925,
+      "triangles": 4597,
+      "mode": 4,
+      "bounds_min": [
+        0.7678830623626709,
+        1.235059380531311,
+        0.017999999225139618
+      ],
+      "bounds_max": [
+        1.0519994497299194,
+        1.7400000095367432,
+        1.0700594186782837
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Clipped from the existing exterior along its authored door boundaries, preserving interpolated UVs and source semantic normals."
+    },
+    {
+      "id": "n104:p0",
+      "node_index": 104,
+      "node_name": "DoorExterior_LR",
+      "mesh_index": 102,
+      "primitive_index": 0,
+      "material_index": 7,
+      "vertices": 49720,
+      "triangles": 28766,
+      "mode": 4,
+      "bounds_min": [
+        0.7337307333946228,
+        0.47999998927116394,
+        -1.2999999523162842
+      ],
+      "bounds_max": [
+        1.0623126029968262,
+        1.7400000095367432,
+        -0.017999999225139618
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Clipped from the existing exterior along its authored door boundaries, preserving interpolated UVs and source semantic normals."
+    },
+    {
+      "id": "n104:p1",
+      "node_index": 104,
+      "node_name": "DoorExterior_LR",
+      "mesh_index": 102,
+      "primitive_index": 1,
+      "material_index": 7,
+      "vertices": 6123,
+      "triangles": 4642,
+      "mode": 4,
+      "bounds_min": [
+        0.7654703855514526,
+        1.23615300655365,
+        -0.45610877871513367
+      ],
+      "bounds_max": [
+        0.9801697134971619,
+        1.7400000095367432,
+        -0.017999999225139618
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Clipped from the existing exterior along its authored door boundaries, preserving interpolated UVs and source semantic normals."
+    },
+    {
+      "id": "n106:p0",
+      "node_index": 106,
+      "node_name": "DoorExterior_RF",
+      "mesh_index": 103,
+      "primitive_index": 0,
+      "material_index": 7,
+      "vertices": 18724,
+      "triangles": 26453,
+      "mode": 4,
+      "bounds_min": [
+        -1.2003085613250732,
+        0.47999998927116394,
+        0.017999999225139618
+      ],
+      "bounds_max": [
+        -0.7530202269554138,
+        1.7400000095367432,
+        1.1722400188446045
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Clipped from the existing exterior along its authored door boundaries, preserving interpolated UVs and source semantic normals."
+    },
+    {
+      "id": "n106:p1",
+      "node_index": 106,
+      "node_name": "DoorExterior_RF",
+      "mesh_index": 103,
+      "primitive_index": 1,
+      "material_index": 7,
+      "vertices": 5312,
+      "triangles": 6396,
+      "mode": 4,
+      "bounds_min": [
+        -1.0537214279174805,
+        1.2336469888687134,
+        0.017999999225139618
+      ],
+      "bounds_max": [
+        -0.7693306803703308,
+        1.7400000095367432,
+        1.143952488899231
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Clipped from the existing exterior along its authored door boundaries, preserving interpolated UVs and source semantic normals."
+    },
+    {
+      "id": "n108:p0",
+      "node_index": 108,
+      "node_name": "DoorExterior_RR",
+      "mesh_index": 104,
+      "primitive_index": 0,
+      "material_index": 7,
+      "vertices": 47833,
+      "triangles": 27773,
+      "mode": 4,
+      "bounds_min": [
+        -1.0650521516799927,
+        0.47999998927116394,
+        -1.2999999523162842
+      ],
+      "bounds_max": [
+        -0.7367355227470398,
+        1.7400000095367432,
+        -0.017999999225139618
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Clipped from the existing exterior along its authored door boundaries, preserving interpolated UVs and source semantic normals."
+    },
+    {
+      "id": "n108:p1",
+      "node_index": 108,
+      "node_name": "DoorExterior_RR",
+      "mesh_index": 104,
+      "primitive_index": 1,
+      "material_index": 7,
+      "vertices": 6256,
+      "triangles": 4818,
+      "mode": 4,
+      "bounds_min": [
+        -0.9896477460861206,
+        1.2351999282836914,
+        -0.6973900198936462
+      ],
+      "bounds_max": [
+        -0.7612610459327698,
+        1.7400000095367432,
+        -0.017999999225139618
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Clipped from the existing exterior along its authored door boundaries, preserving interpolated UVs and source semantic normals."
+    },
+    {
+      "id": "n109:p0",
+      "node_index": 109,
+      "node_name": "FrontLightBandHousingMountReturn-lower",
+      "mesh_index": 105,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 1480,
+      "triangles": 1478,
+      "mode": 4,
+      "bounds_min": [
+        -0.925000011920929,
+        1.0390000343322754,
+        2.208130121231079
+      ],
+      "bounds_max": [
+        0.925000011920929,
+        1.0460000038146973,
+        2.570235013961792
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n110:p0",
+      "node_index": 110,
+      "node_name": "FrontLightBandHousingMountReturn-upper",
+      "mesh_index": 106,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 642,
+      "triangles": 640,
+      "mode": 4,
+      "bounds_min": [
+        -0.925000011920929,
+        1.1139999628067017,
+        2.20611310005188
+      ],
+      "bounds_max": [
+        0.925000011920929,
+        1.11899995803833,
+        2.562971830368042
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n111:p0",
+      "node_index": 111,
+      "node_name": "RearLightBandHousingMountReturn-lower",
+      "mesh_index": 107,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 1440,
+      "triangles": 480,
+      "mode": 4,
+      "bounds_min": [
+        -0.9340000152587891,
+        1.1649999618530273,
+        -2.4882872104644775
+      ],
+      "bounds_max": [
+        0.9340000152587891,
+        1.1649999618530273,
+        -2.221125602722168
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n112:p0",
+      "node_index": 112,
+      "node_name": "RearLightBandHousingMountReturn-upper",
+      "mesh_index": 108,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 642,
+      "triangles": 640,
+      "mode": 4,
+      "bounds_min": [
+        -0.925000011920929,
+        1.2430000305175781,
+        -2.4882872104644775
+      ],
+      "bounds_max": [
+        0.925000011920929,
+        1.2480000257492065,
+        -2.23671817779541
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n113:p0",
+      "node_index": 113,
+      "node_name": "FrontCornerHousing--1",
+      "mesh_index": 109,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        -0.9459999799728394,
+        1.0729999542236328,
+        2.1777515411376953
+      ],
+      "bounds_max": [
+        -0.8960000276565552,
+        1.0870000123977661,
+        2.2518510818481445
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n114:p0",
+      "node_index": 114,
+      "node_name": "FrontCornerMountUpper--1",
+      "mesh_index": 110,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        -0.9459999799728394,
+        1.0870000123977661,
+        2.1747515201568604
+      ],
+      "bounds_max": [
+        -0.8960000276565552,
+        1.0870000123977661,
+        2.2518510818481445
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n115:p0",
+      "node_index": 115,
+      "node_name": "FrontCornerMountLower--1",
+      "mesh_index": 111,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        -0.9459999799728394,
+        1.0729999542236328,
+        2.1747515201568604
+      ],
+      "bounds_max": [
+        -0.8960000276565552,
+        1.0729999542236328,
+        2.2518510818481445
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n116:p0",
+      "node_index": 116,
+      "node_name": "FrontCornerHousing-1",
+      "mesh_index": 112,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        0.8960000276565552,
+        1.0729999542236328,
+        2.176241397857666
+      ],
+      "bounds_max": [
+        0.9459999799728394,
+        1.0870000123977661,
+        2.2508740425109863
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n117:p0",
+      "node_index": 117,
+      "node_name": "FrontCornerMountUpper-1",
+      "mesh_index": 113,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        0.8960000276565552,
+        1.0870000123977661,
+        2.17324161529541
+      ],
+      "bounds_max": [
+        0.9459999799728394,
+        1.0870000123977661,
+        2.2508740425109863
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n118:p0",
+      "node_index": 118,
+      "node_name": "FrontCornerMountLower-1",
+      "mesh_index": 114,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        0.8960000276565552,
+        1.0729999542236328,
+        2.17324161529541
+      ],
+      "bounds_max": [
+        0.9459999799728394,
+        1.0729999542236328,
+        2.2508740425109863
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n119:p0",
+      "node_index": 119,
+      "node_name": "ProjectorBodyMount--1",
+      "mesh_index": 115,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        -0.9929999709129333,
+        0.5609999895095825,
+        2.155813217163086
+      ],
+      "bounds_max": [
+        -0.824999988079071,
+        0.9129999876022339,
+        2.449151039123535
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n120:p0",
+      "node_index": 120,
+      "node_name": "ProjectorBodyMount-1",
+      "mesh_index": 116,
+      "primitive_index": 0,
+      "material_index": 20,
+      "vertices": 320,
+      "triangles": 320,
+      "mode": 4,
+      "bounds_min": [
+        0.824999988079071,
+        0.5609999895095825,
+        2.155813217163086
+      ],
+      "bounds_max": [
+        0.9929999709129333,
+        0.9129999876022339,
+        2.4493308067321777
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n121:p0",
+      "node_index": 121,
+      "node_name": "ContinuousRoofGlass",
+      "mesh_index": 117,
+      "primitive_index": 0,
+      "material_index": 25,
+      "vertices": 16081,
+      "triangles": 30960,
+      "mode": 4,
+      "bounds_min": [
+        -0.7392627000808716,
+        1.8079833984375,
+        -1.4962899684906006
+      ],
+      "bounds_max": [
+        0.7392627000808716,
+        1.8957632780075073,
+        0.3462899923324585
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n122:p0",
+      "node_index": 122,
+      "node_name": "ContinuousRoofSeal",
+      "mesh_index": 118,
+      "primitive_index": 0,
+      "material_index": 26,
+      "vertices": 16081,
+      "triangles": 480,
+      "mode": 4,
+      "bounds_min": [
+        -0.7392627000808716,
+        1.8079833984375,
+        -1.4962899684906006
+      ],
+      "bounds_max": [
+        0.7392627000808716,
+        1.8957632780075073,
+        0.3462899923324585
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "fixed",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n123:p0",
+      "node_index": 123,
+      "node_name": "ContinuousRoofFrame",
+      "mesh_index": 119,
+      "primitive_index": 0,
+      "material_index": 24,
+      "vertices": 16081,
+      "triangles": 480,
+      "mode": 4,
+      "bounds_min": [
+        -0.7392627000808716,
+        1.8079833984375,
+        -1.4962899684906006
+      ],
+      "bounds_max": [
+        0.7392627000808716,
+        1.8957632780075073,
+        0.3462899923324585
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual reconstructed roof geometry and original source bindings"
+    },
+    {
+      "id": "n124:p0",
+      "node_index": 124,
+      "node_name": "ContinuousFrontPaintEdge",
+      "mesh_index": 120,
+      "primitive_index": 0,
+      "material_index": 27,
+      "vertices": 24420,
+      "triangles": 47296,
+      "mode": 4,
+      "bounds_min": [
+        -0.925000011920929,
+        0.9679999947547913,
+        2.207130193710327
+      ],
+      "bounds_max": [
+        0.925000011920929,
+        1.0460000038146973,
+        2.6446456909179688
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual front boundary sample"
+    },
+    {
+      "id": "n125:p0",
+      "node_index": 125,
+      "node_name": "FrontPaintEdgeSideJoin-1",
+      "mesh_index": 121,
+      "primitive_index": 0,
+      "material_index": 27,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        -0.9251999855041504,
+        0.9679999947547913,
+        2.1911778450012207
+      ],
+      "bounds_max": [
+        -0.925000011920929,
+        1.0460000038146973,
+        2.3022468090057373
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual front boundary sample"
+    },
+    {
+      "id": "n126:p0",
+      "node_index": 126,
+      "node_name": "FrontPaintEdgeSideJoin1",
+      "mesh_index": 122,
+      "primitive_index": 0,
+      "material_index": 27,
+      "vertices": 130,
+      "triangles": 128,
+      "mode": 4,
+      "bounds_min": [
+        0.925000011920929,
+        0.9679999947547913,
+        2.178994655609131
+      ],
+      "bounds_max": [
+        0.9251999855041504,
+        1.0460000038146973,
+        2.3016374111175537
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual front boundary sample"
+    },
+    {
+      "id": "n127:p0",
+      "node_index": 127,
+      "node_name": "CleanFrontUpperEdge",
+      "mesh_index": 123,
+      "primitive_index": 0,
+      "material_index": 28,
+      "vertices": 10593,
+      "triangles": 20480,
+      "mode": 4,
+      "bounds_min": [
+        -0.925000011920929,
+        1.1139999628067017,
+        1.9837067127227783
+      ],
+      "bounds_max": [
+        0.925000011920929,
+        1.1449999809265137,
+        2.563971757888794
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n128:p0",
+      "node_index": 128,
+      "node_name": "CleanProjectorPaintRim-1",
+      "mesh_index": 124,
+      "primitive_index": 0,
+      "material_index": 28,
+      "vertices": 2080,
+      "triangles": 3840,
+      "mode": 4,
+      "bounds_min": [
+        -0.9997199773788452,
+        0.5469200015068054,
+        2.160813093185425
+      ],
+      "bounds_max": [
+        -0.8182799816131592,
+        0.927079975605011,
+        2.4558894634246826
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n129:p0",
+      "node_index": 129,
+      "node_name": "CleanProjectorPaintRim1",
+      "mesh_index": 125,
+      "primitive_index": 0,
+      "material_index": 28,
+      "vertices": 2080,
+      "triangles": 3840,
+      "mode": 4,
+      "bounds_min": [
+        0.8182799816131592,
+        0.5469200015068054,
+        2.160813093185425
+      ],
+      "bounds_max": [
+        0.9997199773788452,
+        0.927079975605011,
+        2.4535439014434814
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n130:p0",
+      "node_index": 130,
+      "node_name": "CleanRearUpperEdge",
+      "mesh_index": 126,
+      "primitive_index": 0,
+      "material_index": 28,
+      "vertices": 10593,
+      "triangles": 20480,
+      "mode": 4,
+      "bounds_min": [
+        -0.925000011920929,
+        1.2430000305175781,
+        -2.4892871379852295
+      ],
+      "bounds_max": [
+        0.925000011920929,
+        1.2599999904632568,
+        -2.0199081897735596
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n131:p0",
+      "node_index": 131,
+      "node_name": "RearLampSlotCarrier",
+      "mesh_index": 127,
+      "primitive_index": 0,
+      "material_index": 29,
+      "vertices": 34536,
+      "triangles": 32276,
+      "mode": 4,
+      "bounds_min": [
+        -0.9497510194778442,
+        1.165492057800293,
+        -2.4882700443267822
+      ],
+      "bounds_max": [
+        0.9449999928474426,
+        1.2410000562667847,
+        -2.0999999046325684
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n132:p0",
+      "node_index": 132,
+      "node_name": "SourcePinholeCap0",
+      "mesh_index": 128,
+      "primitive_index": 0,
+      "material_index": 30,
+      "vertices": 27,
+      "triangles": 25,
+      "mode": 4,
+      "bounds_min": [
+        -0.9363800287246704,
+        1.0422040224075317,
+        2.1777141094207764
+      ],
+      "bounds_max": [
+        -0.925000011920929,
+        1.0434130430221558,
+        2.209644079208374
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n133:p0",
+      "node_index": 133,
+      "node_name": "SourcePinholeCap1",
+      "mesh_index": 129,
+      "primitive_index": 0,
+      "material_index": 31,
+      "vertices": 3,
+      "triangles": 1,
+      "mode": 4,
+      "bounds_min": [
+        -0.9340689778327942,
+        1.1072980165481567,
+        2.1600000858306885
+      ],
+      "bounds_max": [
+        -0.9331459999084473,
+        1.110079050064087,
+        2.1600000858306885
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n134:p0",
+      "node_index": 134,
+      "node_name": "SourcePinholeCap2",
+      "mesh_index": 130,
+      "primitive_index": 0,
+      "material_index": 32,
+      "vertices": 3,
+      "triangles": 1,
+      "mode": 4,
+      "bounds_min": [
+        -0.9295439720153809,
+        1.1158380508422852,
+        2.1600000858306885
+      ],
+      "bounds_max": [
+        -0.9277039766311646,
+        1.1170990467071533,
+        2.1600000858306885
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n135:p0",
+      "node_index": 135,
+      "node_name": "SourcePinholeCap3",
+      "mesh_index": 131,
+      "primitive_index": 0,
+      "material_index": 33,
+      "vertices": 3,
+      "triangles": 1,
+      "mode": 4,
+      "bounds_min": [
+        -0.8751189708709717,
+        1.1528860330581665,
+        2.1600000858306885
+      ],
+      "bounds_max": [
+        -0.8710799813270569,
+        1.1554330587387085,
+        2.1600000858306885
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n136:p0",
+      "node_index": 136,
+      "node_name": "SourcePinholeCap4",
+      "mesh_index": 132,
+      "primitive_index": 0,
+      "material_index": 34,
+      "vertices": 3,
+      "triangles": 1,
+      "mode": 4,
+      "bounds_min": [
+        -0.8546339869499207,
+        1.166072964668274,
+        2.1600000858306885
+      ],
+      "bounds_max": [
+        -0.8524259924888611,
+        1.167207956314087,
+        2.1600000858306885
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n137:p0",
+      "node_index": 137,
+      "node_name": "SourcePinholeCap5",
+      "mesh_index": 133,
+      "primitive_index": 0,
+      "material_index": 35,
+      "vertices": 12,
+      "triangles": 10,
+      "mode": 4,
+      "bounds_min": [
+        0.925000011920929,
+        1.0439380407333374,
+        2.1922268867492676
+      ],
+      "bounds_max": [
+        0.9371110200881958,
+        1.044152021408081,
+        2.207263946533203
+      ],
+      "uv_sets": [],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n21:p2",
+      "node_index": 21,
+      "node_name": "VehicleExterior",
+      "mesh_index": 21,
+      "primitive_index": 2,
+      "material_index": 7,
+      "vertices": 554,
+      "triangles": 318,
+      "mode": 4,
+      "bounds_min": [
+        0.7337307333946228,
+        1.631507158279419,
+        -1.2999999523162842
+      ],
+      "bounds_max": [
+        0.7908480167388916,
+        1.7400000095367432,
+        -1.1799999475479126
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n21:p3",
+      "node_index": 21,
+      "node_name": "VehicleExterior",
+      "mesh_index": 21,
+      "primitive_index": 3,
+      "material_index": 7,
+      "vertices": 508,
+      "triangles": 299,
+      "mode": 4,
+      "bounds_min": [
+        -0.7932697534561157,
+        1.6315072774887085,
+        -1.2999999523162842
+      ],
+      "bounds_max": [
+        -0.7367355227470398,
+        1.7400000095367432,
+        -1.1799999475479126
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    },
+    {
+      "id": "n138:p0",
+      "node_index": 138,
+      "node_name": "ReferenceChargingCover",
+      "mesh_index": 134,
+      "primitive_index": 0,
+      "material_index": 7,
+      "vertices": 888,
+      "triangles": 604,
+      "mode": 4,
+      "bounds_min": [
+        0.9895843267440796,
+        1.0449999570846558,
+        -1.7050000429153442
+      ],
+      "bounds_max": [
+        1.059774398803711,
+        1.1950000524520874,
+        -1.4550000429153442
+      ],
+      "uv_sets": [
+        "TEXCOORD_0"
+      ],
+      "active_scene": true,
+      "role": "paint",
+      "evidence": "Actual edge reconstruction"
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "definition": {
+        "doubleSided": true,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatRoughnessFactor": 0.18000000715255737
+          }
+        },
+        "name": "WindshieldSeal",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.00800000037997961,
+            0.009999999776482582,
+            0.012000000104308128,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.41999998688697815
+        }
+      },
+      "users": [
+        "n0:p0",
+        "n2:p0",
+        "n22:p0"
+      ]
+    },
+    {
+      "index": 1,
+      "definition": {
+        "doubleSided": true,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.5,
+            "clearcoatRoughnessFactor": 0.18000000715255737
+          }
+        },
+        "name": "LidarLens",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.012000000104308128,
+            0.024000000208616257,
+            0.029999999329447746,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.09000000357627869
+        }
+      },
+      "users": [
+        "n1:p0"
+      ]
+    },
+    {
+      "index": 2,
+      "definition": {
+        "doubleSided": true,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatRoughnessFactor": 0.18000000715255737
+          }
+        },
+        "name": "CabinDark",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.017999999225139618,
+            0.023000000044703484,
+            0.024000000208616257,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.75
+        }
+      },
+      "users": [
+        "n3:p0",
+        "n4:p0",
+        "n5:p0",
+        "n6:p0",
+        "n7:p0",
+        "n8:p0",
+        "n9:p0",
+        "n10:p0",
+        "n17:p0"
+      ]
+    },
+    {
+      "index": 3,
+      "definition": {
+        "doubleSided": true,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatRoughnessFactor": 0.18000000715255737
+          }
+        },
+        "name": "CabinPreview",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.11999999731779099,
+            0.10499999672174454,
+            0.0860000029206276,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.7799999713897705
+        }
+      },
+      "users": [
+        "n11:p0",
+        "n12:p0",
+        "n13:p0",
+        "n14:p0",
+        "n15:p0",
+        "n16:p0"
+      ]
+    },
+    {
+      "index": 4,
+      "definition": {
+        "doubleSided": true,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatRoughnessFactor": 0.18000000715255737
+          },
+          "KHR_materials_specular": {
+            "specularFactor": 0.36000001430511475
+          }
+        },
+        "name": "LidarHousing",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.008999999612569809,
+            0.010999999940395355,
+            0.013000000268220901,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.36000001430511475
+        }
+      },
+      "users": [
+        "n18:p0"
+      ]
+    },
+    {
+      "index": 5,
+      "definition": {
+        "doubleSided": true,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.6499999761581421,
+            "clearcoatRoughnessFactor": 0.18000000715255737
+          }
+        },
+        "name": "RoofPaint",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.3970000147819519,
+            0.4230000078678131,
+            0.4180000126361847,
+            1
+          ],
+          "metallicFactor": 0.550000011920929,
+          "roughnessFactor": 0.27000001072883606
+        }
+      },
+      "users": [
+        "n19:p0"
+      ]
+    },
+    {
+      "index": 6,
+      "definition": {
+        "doubleSided": false,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.15000000596046448,
+            "clearcoatRoughnessFactor": 0.18000000715255737
+          },
+          "KHR_materials_transmission": {
+            "transmissionFactor": 0.7799999713897705
+          },
+          "KHR_materials_ior": {
+            "ior": 1.4800000190734863
+          }
+        },
+        "name": "WindshieldGlass",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.11999999731779099,
+            0.17000000178813934,
+            0.1899999976158142,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.06499999761581421
+        }
+      },
+      "users": [
+        "n20:p0"
+      ]
+    },
+    {
+      "index": 7,
+      "definition": {
+        "doubleSided": true,
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "emissiveTexture": {
+          "index": 0
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.6499999761581421,
+            "clearcoatRoughnessFactor": 0.2199999988079071
+          },
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 2
+          }
+        },
+        "name": "VehicleSurface",
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 1
+          },
+          "metallicRoughnessTexture": {
+            "index": 2
+          }
+        }
+      },
+      "users": [
+        "n21:p0",
+        "n21:p1",
+        "n102:p0",
+        "n102:p1",
+        "n104:p0",
+        "n104:p1",
+        "n106:p0",
+        "n106:p1",
+        "n108:p0",
+        "n108:p1"
+      ]
+    },
+    {
+      "index": 8,
+      "definition": {
+        "doubleSided": true,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.75,
+            "clearcoatRoughnessFactor": 0.14
+          }
+        },
+        "name": "LocalBodyPaint",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.397,
+            0.423,
+            0.418,
+            1
+          ],
+          "metallicFactor": 0.45,
+          "roughnessFactor": 0.25
+        }
+      },
+      "users": []
+    },
+    {
+      "index": 9,
+      "definition": {
+        "name": "WindshieldFrit",
+        "doubleSided": false,
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.006,
+            0.008,
+            0.01,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.2
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.3,
+            "clearcoatRoughnessFactor": 0.1
+          }
+        }
+      },
+      "users": [
+        "n23:p0"
+      ]
+    },
+    {
+      "index": 10,
+      "definition": {
+        "name": "RimMachinedFace",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.55,
+            0.57,
+            0.59,
+            1
+          ],
+          "metallicFactor": 0.95,
+          "roughnessFactor": 0.19
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.35,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        }
+      },
+      "users": [
+        "n24:p0",
+        "n28:p0",
+        "n31:p0",
+        "n32:p0",
+        "n36:p0",
+        "n39:p0",
+        "n40:p0",
+        "n44:p0",
+        "n47:p0",
+        "n48:p0",
+        "n52:p0",
+        "n55:p0"
+      ]
+    },
+    {
+      "index": 11,
+      "definition": {
+        "name": "RimGraphite",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.018,
+            0.022,
+            0.027,
+            1
+          ],
+          "metallicFactor": 0.8,
+          "roughnessFactor": 0.24
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.25,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        }
+      },
+      "users": [
+        "n25:p0",
+        "n27:p0",
+        "n29:p0",
+        "n30:p0",
+        "n33:p0",
+        "n35:p0",
+        "n37:p0",
+        "n38:p0",
+        "n41:p0",
+        "n43:p0",
+        "n45:p0",
+        "n46:p0",
+        "n49:p0",
+        "n51:p0",
+        "n53:p0",
+        "n54:p0"
+      ]
+    },
+    {
+      "index": 12,
+      "definition": {
+        "name": "BrakeDisc",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.035,
+            0.038,
+            0.042,
+            1
+          ],
+          "metallicFactor": 0.7,
+          "roughnessFactor": 0.52
+        }
+      },
+      "users": [
+        "n26:p0",
+        "n34:p0",
+        "n42:p0",
+        "n50:p0"
+      ]
+    },
+    {
+      "index": 13,
+      "definition": {
+        "name": "ProjectorLens",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.017,
+            0.028,
+            0.038,
+            1
+          ],
+          "metallicFactor": 0.15,
+          "roughnessFactor": 0.075
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.9,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        }
+      },
+      "users": [
+        "n57:p0",
+        "n60:p0",
+        "n63:p0",
+        "n66:p0"
+      ]
+    },
+    {
+      "index": 14,
+      "definition": {
+        "name": "ProjectorTrim",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.15,
+            0.18,
+            0.2,
+            1
+          ],
+          "metallicFactor": 0.95,
+          "roughnessFactor": 0.2
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.4,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        }
+      },
+      "users": [
+        "n56:p0",
+        "n59:p0",
+        "n62:p0",
+        "n65:p0",
+        "n81:p0",
+        "n82:p0",
+        "n83:p0",
+        "n84:p0",
+        "n85:p0",
+        "n86:p0",
+        "n87:p0",
+        "n88:p0"
+      ]
+    },
+    {
+      "index": 15,
+      "definition": {
+        "name": "FrontLED",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.6,
+            0.75,
+            0.82,
+            1
+          ],
+          "metallicFactor": 0.1,
+          "roughnessFactor": 0.2
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.4,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        },
+        "emissiveFactor": [
+          0.7,
+          0.85,
+          1.0
+        ]
+      },
+      "users": [
+        "n68:p0"
+      ]
+    },
+    {
+      "index": 16,
+      "definition": {
+        "name": "TailLED",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.18,
+            0.003,
+            0.006,
+            1
+          ],
+          "metallicFactor": 0.1,
+          "roughnessFactor": 0.21
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.4,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        },
+        "emissiveFactor": [
+          1.0,
+          0.008,
+          0.01
+        ]
+      },
+      "users": [
+        "n69:p0",
+        "n89:p0",
+        "n91:p0"
+      ]
+    },
+    {
+      "index": 17,
+      "definition": {
+        "name": "ProjectorLight",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.12,
+            0.16,
+            0.19,
+            1
+          ],
+          "metallicFactor": 0.35,
+          "roughnessFactor": 0.2
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.5,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        },
+        "emissiveFactor": [
+          0.2,
+          0.3,
+          0.42
+        ]
+      },
+      "users": [
+        "n58:p0",
+        "n61:p0",
+        "n64:p0",
+        "n67:p0"
+      ]
+    },
+    {
+      "index": 18,
+      "definition": {
+        "name": "LocalBodyPaint",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.28,
+            0.31,
+            0.34,
+            1
+          ],
+          "metallicFactor": 0.55,
+          "roughnessFactor": 0.3
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.65,
+            "clearcoatRoughnessFactor": 0.22
+          }
+        }
+      },
+      "users": [
+        "n70:p0"
+      ]
+    },
+    {
+      "index": 19,
+      "definition": {
+        "name": "WindowChrome",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.46,
+            0.49,
+            0.52,
+            1
+          ],
+          "metallicFactor": 0.96,
+          "roughnessFactor": 0.2
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.22,
+            "clearcoatRoughnessFactor": 0.12
+          }
+        }
+      },
+      "users": []
+    },
+    {
+      "index": 20,
+      "definition": {
+        "name": "LampBandHousing",
+        "doubleSided": true,
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.006,
+            0.009,
+            0.012,
+            1
+          ],
+          "metallicFactor": 0.16,
+          "roughnessFactor": 0.19
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.45,
+            "clearcoatRoughnessFactor": 0.16
+          }
+        }
+      },
+      "users": [
+        "n73:p0",
+        "n74:p0",
+        "n75:p0",
+        "n76:p0",
+        "n77:p0",
+        "n78:p0",
+        "n79:p0",
+        "n80:p0"
+      ]
+    },
+    {
+      "index": 21,
+      "definition": {
+        "name": "SignalLensAmber",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.7,
+            0.25,
+            0.004,
+            1
+          ],
+          "metallicFactor": 0.06,
+          "roughnessFactor": 0.18
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.5,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        }
+      },
+      "users": [
+        "n90:p0",
+        "n92:p0"
+      ]
+    },
+    {
+      "index": 22,
+      "definition": {
+        "name": "DoorHandlePaint",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.397,
+            0.423,
+            0.418,
+            1
+          ],
+          "metallicFactor": 0.55,
+          "roughnessFactor": 0.3
+        },
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.65,
+            "clearcoatRoughnessFactor": 0.22
+          }
+        }
+      },
+      "users": [
+        "n94:p0",
+        "n96:p0",
+        "n98:p0",
+        "n100:p0"
+      ]
+    },
+    {
+      "index": 23,
+      "definition": {
+        "name": "DoorHandleSeal",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.006,
+            0.008,
+            0.01,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.48
+        }
+      },
+      "users": [
+        "n93:p0",
+        "n95:p0",
+        "n97:p0",
+        "n99:p0"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "index": 0,
+      "name": "lamp-emission",
+      "mime_type": "image/png",
+      "path": "textures/image-0.png",
+      "sha256": "8060f3873adeba410c05e566a8a67b6396ddb2a03ca97e35967a37fe0ad2d688",
+      "bytes": 113992
+    },
+    {
+      "index": 1,
+      "name": "finish-silver",
+      "mime_type": "image/png",
+      "path": "textures/image-1.png",
+      "sha256": "7f799a2d4d7be086d27e886063ae16db54f70856ea3940c0b64a602e1a5f42cf",
+      "bytes": 8141676
+    },
+    {
+      "index": 2,
+      "name": "surface-orm",
+      "mime_type": "image/png",
+      "path": "textures/image-2.png",
+      "sha256": "af09ca951a896ddbdb01d6672519a10ee9438b7523ff28f57d3f6044a5fc9277",
+      "bytes": 1217202
+    }
+  ],
+  "animations": [],
+  "extensions_required": [],
+  "protected_features": [
+    {
+      "name": "LidarOpticalWindow",
+      "targets": [
+        "n1:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "RebuiltLidarHousing",
+      "targets": [
+        "n18:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "RebuiltWindshield",
+      "targets": [
+        "n20:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "WindshieldPerimeterSeal",
+      "targets": [
+        "n22:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "WindshieldInnerFrit",
+      "targets": [
+        "n23:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontRightRimLip",
+      "targets": [
+        "n24:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontRightRimBarrel",
+      "targets": [
+        "n25:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontLeftRimLip",
+      "targets": [
+        "n32:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontLeftRimBarrel",
+      "targets": [
+        "n33:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "RearRightRimLip",
+      "targets": [
+        "n40:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "RearRightRimBarrel",
+      "targets": [
+        "n41:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "RearLeftRimLip",
+      "targets": [
+        "n48:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "RearLeftRimBarrel",
+      "targets": [
+        "n49:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorTrim-10.827",
+      "targets": [
+        "n56:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorLens-10.827",
+      "targets": [
+        "n57:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorLight-10.827",
+      "targets": [
+        "n58:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorTrim-10.691",
+      "targets": [
+        "n59:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorLens-10.691",
+      "targets": [
+        "n60:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorLight-10.691",
+      "targets": [
+        "n61:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorTrim10.827",
+      "targets": [
+        "n62:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorLens10.827",
+      "targets": [
+        "n63:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorLight10.827",
+      "targets": [
+        "n64:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorTrim10.691",
+      "targets": [
+        "n65:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorLens10.691",
+      "targets": [
+        "n66:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontProjectorLight10.691",
+      "targets": [
+        "n67:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ContinuousFrontLED",
+      "targets": [
+        "n68:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ContinuousTailLED",
+      "targets": [
+        "n69:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorCavityBacking-1",
+      "targets": [
+        "n75:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorCavityReturn-1",
+      "targets": [
+        "n76:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorCavityBezel-1",
+      "targets": [
+        "n77:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorCavityBacking1",
+      "targets": [
+        "n78:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorCavityReturn1",
+      "targets": [
+        "n79:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorCavityBezel1",
+      "targets": [
+        "n80:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorPrecisionSurround-10.827",
+      "targets": [
+        "n81:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorPrecisionSurround-10.691",
+      "targets": [
+        "n82:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorVerticalAccent-1-0.053",
+      "targets": [
+        "n83:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorVerticalAccent-10.053",
+      "targets": [
+        "n84:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorPrecisionSurround10.827",
+      "targets": [
+        "n85:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorPrecisionSurround10.691",
+      "targets": [
+        "n86:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorVerticalAccent1-0.053",
+      "targets": [
+        "n87:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "ProjectorVerticalAccent10.053",
+      "targets": [
+        "n88:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontRightHandleGasket",
+      "targets": [
+        "n93:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontRightHandleFace",
+      "targets": [
+        "n94:p0"
+      ],
+      "recolorable": true
+    },
+    {
+      "name": "RearRightHandleGasket",
+      "targets": [
+        "n95:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "RearRightHandleFace",
+      "targets": [
+        "n96:p0"
+      ],
+      "recolorable": true
+    },
+    {
+      "name": "FrontLeftHandleGasket",
+      "targets": [
+        "n97:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "FrontLeftHandleFace",
+      "targets": [
+        "n98:p0"
+      ],
+      "recolorable": true
+    },
+    {
+      "name": "RearLeftHandleGasket",
+      "targets": [
+        "n99:p0"
+      ],
+      "recolorable": false
+    },
+    {
+      "name": "RearLeftHandleFace",
+      "targets": [
+        "n100:p0"
+      ],
+      "recolorable": true
+    },
+    {
+      "id": "ContinuousRoofGlass",
+      "recolorable": false,
+      "targets": [
+        "n121:p0"
+      ]
+    },
+    {
+      "id": "ContinuousRoofSeal",
+      "recolorable": false,
+      "targets": [
+        "n122:p0"
+      ]
+    }
+  ],
+  "runtime_dependencies": [
+    {
+      "module": "./case-adapter.js",
+      "reason": "V17 fused body paint/glass/lamps and reconstructed shared boundaries require original case shader",
+      "files": [
+        {
+          "path": "case-adapter.js",
+          "sha256": "a96fdbdadfc6a434a823b0fd9a771adb588910e1ca06b3ce03973f5fe8c49867"
+        },
+        {
+          "path": "semantic-mask-v9.png",
+          "sha256": "b0603ad81aae35e9931f083c869f5ba1251293167a24d7b3116d1e1bc3299a32"
+        },
+        {
+          "path": "semantic-paint-v17.js",
+          "sha256": "1f3255f8a71aa1a1a62dcf849f317c5c09c581af66c0a41f0dc538efdd42fbc6"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Existing AI mesh shape inaccuracies remain; geometry not repaired in this upgrade",
+    "60 MB asset; physical mobile performance unverified",
+    "Original runtime material segmentation required; standalone GLB appearance differs",
+    "Door inner panels, hinges and cabin additions are a persisted Three.js assembly; they are not encoded in the standalone GLB."
+  ],
+  "verdicts": {
+    "structure": "inventoried",
+    "geometry": "not_reviewed",
+    "materials": "not_reviewed",
+    "visual": "not_reviewed"
+  }
+}

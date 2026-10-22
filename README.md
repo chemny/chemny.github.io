@@ -24,3 +24,9 @@ GitHub 项目资料读取于 2026-10-13，只展示 chemny 的公开、非 fork 
 确认内容后，将本目录内容放入 chemny.github.io 仓库，在 Settings → Pages 选择从分支部署，选择 main / root。已包含 .nojekyll；不需要 Jekyll。网站使用相对链接，也适用于项目子路径。
 
 个人网站初版。个人介绍与文章为示例，项目案例将持续补充。
+
+## 交互式 3D 个人案例
+
+`project-image-to-3d.html` 保留原有项目详情，原占位图已替换为六个当前模型的真实截图，点击图片直接打开 `demos/3d/`。作品列表保持原有 Image to 3D 条目，不新增独立案例。`demos/3d/` 为六个案例、八个当前模型版本的完整静态演示。演示资源仅按案例选择加载，不包含历史模型、回退数据、清理记录或本机工程脚本。
+
+模型支持 WebGL，部分资源使用浏览器 DecompressionStream 解压，需要现代浏览器和 HTTP(S) 环境；不可通过 file:// 运行。保留 .nojekyll。大模型首次加载所需时间取决于网络和设备，GitHub Pages 发布后应复查线上资源与解压。

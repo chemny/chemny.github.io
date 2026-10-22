@@ -1,0 +1,10 @@
+// Case-only V17 runtime material dependency. No generic vehicle coordinates.
+import {bindSemanticPaint,setSurfacePigment,setSurfaceLights,bindReferenceRoof,bindFittedFascia,PAINT_FINISH,calibratePaintEnvironment} from './semantic-paint-v17.js';
+export async function bind({THREE,model,paintBindings,renderer}) {
+ const mask=await new THREE.TextureLoader().loadAsync('./semantic-mask-v9.png');mask.colorSpace=THREE.NoColorSpace;mask.flipY=false;mask.minFilter=THREE.LinearMipmapLinearFilter;mask.magFilter=THREE.LinearFilter;mask.anisotropy=Math.min(8,renderer.capabilities.getMaxAnisotropy());
+ for(const binding of paintBindings){const m=binding.material;
+  if(m.name==='VehicleSurface'){for(const t of [m.map,m.roughnessMap,m.metalnessMap,m.emissiveMap])if(t)t.anisotropy=mask.anisotropy;bindSemanticPaint(m,mask);setSurfaceLights(m,true);binding.setColor=c=>setSurfacePigment(m,c);binding.restore=()=>setSurfacePigment(m,'#92999f');}
+  else {m.map=null;m.roughnessMap=null;m.metalnessMap=null;m.normalMap=null;m.bumpMap=null;m.roughness=PAINT_FINISH.roughness;m.metalness=PAINT_FINISH.metalness;m.clearcoat=PAINT_FINISH.clearcoat;m.clearcoatRoughness=PAINT_FINISH.clearcoatRoughness;m.envMapIntensity=.75;if(m.name==='RoofPaint')bindReferenceRoof(m);if(m.name==='LocalBodyPaint')bindFittedFascia(m);if(m.name!=='RoofPaint'){const previous=m.onBeforeCompile.bind(m),cacheKey=m.customProgramCacheKey.bind(m);m.onBeforeCompile=shader=>{previous(shader);calibratePaintEnvironment(shader);};m.customProgramCacheKey=()=>cacheKey()+'-paint-calibration-v1';}}
+ }
+ model.traverse(o=>{if(!o.isMesh)return;if(o.name==='PreviewFrontInnerLiner')o.visible=false;const m=o.material;m.envMapIntensity=.65;if(m.name==='WindshieldGlass'){m.transmission=.90;m.thickness=.004;m.roughness=.025;m.color.set('#7c9193');m.side=THREE.FrontSide;m.attenuationDistance=.35;m.attenuationColor.set('#b5cece');m.envMapIntensity=.10;m.clearcoat=.02;o.castShadow=false;}});
+}

@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "method": "manual reference-guided appearance calibration; not intrinsic material extraction",
+  "materials": {
+    "yellow": {
+      "color": "#ffdf00",
+      "roughness": 0.24,
+      "metalness": 0,
+      "clearcoat": 0.32,
+      "clearcoatRoughness": 0.24
+    },
+    "orange": {
+      "color": "#f88b00",
+      "roughness": 0.2,
+      "metalness": 0,
+      "clearcoat": 0.22,
+      "clearcoatRoughness": 0.2,
+      "envMapIntensity": 0.6
+    },
+    "black": {
+      "color": "#090908",
+      "roughness": 0.18,
+      "clearcoat": 0.5
+    },
+    "socket": {
+      "color": "#514315",
+      "roughness": 0.34
+    }
+  },
+  "lighting": {
+    "environmentIntensity": 1.15,
+    "hemisphereIntensity": 1.5,
+    "directionalIntensity": 1.05,
+    "exposure": 1,
+    "background": "#f3efea",
+    "toneMapping": "NeutralToneMapping",
+    "fillIntensity": 0.55,
+    "softboxes": [
+      {
+        "position": [
+          -3,
+          5,
+          4
+        ],
+        "size": [
+          4,
+          5
+        ],
+        "radiance": 7
+      },
+      {
+        "position": [
+          4,
+          3,
+          4
+        ],
+        "size": [
+          3,
+          4
+        ],
+        "radiance": 7
+      },
+      {
+        "position": [
+          0,
+          6,
+          -3
+        ],
+        "size": [
+          4,
+          2
+        ],
+        "radiance": 4
+      },
+      {
+        "position": [
+          0,
+          0.5,
+          5
+        ],
+        "size": [
+          5,
+          3
+        ],
+        "radiance": 2
+      }
+    ]
+  },
+  "limitations": [
+    "Single image does not uniquely determine albedo, roughness or light intensity.",
+    "Hidden surfaces remain inferred."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "cameras": {
+    "original-view": {
+      "type": "perspective",
+      "width": 1296,
+      "height": 1080,
+      "position": [
+        0.00125,
+        0.83077,
+        2.91089
+      ],
+      "target": [
+        0.00125,
+        0.094043,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "fov_y_deg": 5.15314,
+      "near": 0.01,
+      "far": 100,
+      "source": {
+        "kind": "inferred",
+        "note": "Elevation ~10 deg estimated from rim/base ellipses; distance arbitrary (weak perspective)."
+      }
+    }
+  },
+  "landmarks": [
+    {
+      "id": "knob-top",
+      "world": [
+        0.0,
+        0.190921,
+        0.0
+      ]
+    },
+    {
+      "id": "body-right-max",
+      "world": [
+        0.091,
+        0.063125,
+        0.0
+      ]
+    },
+    {
+      "id": "body-left-low",
+      "world": [
+        -0.08575,
+        0.03736,
+        0.0
+      ]
+    },
+    {
+      "id": "spout-tip",
+      "world": [
+        -0.122,
+        0.139648,
+        0.0
+      ]
+    },
+    {
+      "id": "handle-outer-right",
+      "world": [
+        0.14100000000000001,
+        0.109503,
+        0.0
+      ]
+    },
+    {
+      "id": "rim-left",
+      "world": [
+        -0.06075,
+        0.143513,
+        0.0
+      ]
+    },
+    {
+      "id": "handle-top",
+      "world": [
+        0.10175,
+        0.152248,
+        0.0
+      ]
+    },
+    {
+      "id": "base-right",
+      "world": [
+        0.06,
+        0.001288,
+        0.0
+      ]
+    }
+  ],
+  "scope": "browser-display",
+  "connections": []
+}

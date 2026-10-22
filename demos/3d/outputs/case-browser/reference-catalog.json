@@ -1,0 +1,680 @@
+{
+  "version": 1,
+  "cases": {
+    "yellow-sports-car": {
+      "chatgpt": [
+        {
+          "label": "最初原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/original.png",
+          "kind": "original",
+          "sha256": "aa59961cffec00d5cce13577026fc7c47f2050da52f21b6287a1a1be4ea727f5",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "正后原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/user-rear-20261014.png",
+          "kind": "original",
+          "sha256": "885d789aa5a959704e01322a1f11746e0e932f6a65cb8789fa8bc0a694150650",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "正侧原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/user-side-20261014.png",
+          "kind": "original",
+          "sha256": "afebb81030901950b6cf5c110e8a9333060b505b2a386d3436449ff6c8a08439",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "正前原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/user-front-20261014.png",
+          "kind": "original",
+          "sha256": "936364684efcf8fb9cbf5523fafe2e30d8249dfc07f5fae74034571b6032acbe",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "前侧45°原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/user-quarter-20261014.png",
+          "kind": "original",
+          "sha256": "2eb7b5c37d5767787266b19f6c2961199272d6fa207f944d7ed46cfa7ca3698a",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "多视角总览",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/nine-view-overview-pending.png",
+          "kind": "generated",
+          "sha256": "4a0a322aad76f0eac847dadf4a986c6430e3240836b0c0a340c9e33e72a63110",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "前侧45°补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/v01-front-three-quarter.png",
+          "kind": "generated",
+          "sha256": "74a5e2f4e2ad9fa473f4dca7bff1e599f3414c39f2fe5525938ee5658bf8ccea",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "正前补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/v02-front.png",
+          "kind": "generated",
+          "sha256": "ba3f48998d78a4aa064ed9c3499a83f9b0d1e013f552d173063e3e155cbf38b5",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "另一侧前45°",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/v03-opposite-front-three-quarter.png",
+          "kind": "generated",
+          "sha256": "f71fed6ac87b97a7917011e09eff714eb9c1f263f33dc1a7130fe8e142a9dbdd",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "左侧补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/v04-left.png",
+          "kind": "generated",
+          "sha256": "047dd9ca8722accdd6bc5a9d27c2c09e066109cf64f0510cba0626d917a5db43",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "正后补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/v05-rear.png",
+          "kind": "generated",
+          "sha256": "0e1daff8095789caf933ab290994ae33684e62656aa8d453dda53f7a229af73a",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "右侧补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/v06-right.png",
+          "kind": "generated",
+          "sha256": "2f9c1d7f1996f4083e6cb5ec468ff030dd3a623e872aaad2b2359835e0b95c9d",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "左后45°",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/v07-rear-left.png",
+          "kind": "generated",
+          "sha256": "a8ef9bf6a70022038ff497e484fccaa36c337c80ed6b8b19094c50245bd80137",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "俯视补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/v08-top.png",
+          "kind": "generated",
+          "sha256": "40c04e0c87230394410f75a96705adfb89f9be056aa6078d1c81060fdd8b4eaf",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "右后45°",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/v09-rear-right.png",
+          "kind": "generated",
+          "sha256": "5d53fb84dc60a33339cd0a3fd2622e5d1daf6a9e876299c163735e5ccefb5c73",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "前脸特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/d01-front.png",
+          "kind": "generated",
+          "sha256": "3995f67bba0bc2f215aae1a9c87aa2c7cbb7fe854955adf471e1d612b99250b6",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "灯组特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/d02-lamp.png",
+          "kind": "generated",
+          "sha256": "9dda9608a8df23882ed489fdeeae4981aba483bc64d891a38723e27a8984f26b",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "车顶特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/d03-roof.png",
+          "kind": "generated",
+          "sha256": "d974150a4134fc7fdde369c9d7c1592ea4354ffc72c783d7ec5cd5bb8f679b70",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "轮毂特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/d04-wheel.png",
+          "kind": "generated",
+          "sha256": "fb50449f48993f4c538c3201cd4aa2b8342421699f989d0346ac9321a1467e42",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "车尾特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/d05-rear.png",
+          "kind": "generated",
+          "sha256": "5c57d26f74c89aa06ab189ce4300f60956d6d31f9254356ab90a4557fd817375",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "车门特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-refinement-v6/project/references/d06-door.png",
+          "kind": "generated",
+          "sha256": "e8d8af7d18732200ace5423899605dacf57b5046e7aa85e0d343313d742d69a2",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        }
+      ],
+      "claude": [
+        {
+          "label": "最初原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/original.png",
+          "kind": "original",
+          "sha256": "aa59961cffec00d5cce13577026fc7c47f2050da52f21b6287a1a1be4ea727f5",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "正后原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/user-rear-20261014.png",
+          "kind": "original",
+          "sha256": "885d789aa5a959704e01322a1f11746e0e932f6a65cb8789fa8bc0a694150650",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "正侧原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/user-side-20261014.png",
+          "kind": "original",
+          "sha256": "afebb81030901950b6cf5c110e8a9333060b505b2a386d3436449ff6c8a08439",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "正前原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/user-front-20261014.png",
+          "kind": "original",
+          "sha256": "936364684efcf8fb9cbf5523fafe2e30d8249dfc07f5fae74034571b6032acbe",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "前侧45°原图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/user-quarter-20261014.png",
+          "kind": "original",
+          "sha256": "2eb7b5c37d5767787266b19f6c2961199272d6fa207f944d7ed46cfa7ca3698a",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "多视角总览",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/nine-view-overview-pending.png",
+          "kind": "generated",
+          "sha256": "4a0a322aad76f0eac847dadf4a986c6430e3240836b0c0a340c9e33e72a63110",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "前侧45°补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/v01-front-three-quarter.png",
+          "kind": "generated",
+          "sha256": "74a5e2f4e2ad9fa473f4dca7bff1e599f3414c39f2fe5525938ee5658bf8ccea",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "正前补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/v02-front.png",
+          "kind": "generated",
+          "sha256": "ba3f48998d78a4aa064ed9c3499a83f9b0d1e013f552d173063e3e155cbf38b5",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "另一侧前45°",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/v03-opposite-front-three-quarter.png",
+          "kind": "generated",
+          "sha256": "f71fed6ac87b97a7917011e09eff714eb9c1f263f33dc1a7130fe8e142a9dbdd",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "左侧补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/v04-left.png",
+          "kind": "generated",
+          "sha256": "047dd9ca8722accdd6bc5a9d27c2c09e066109cf64f0510cba0626d917a5db43",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "正后补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/v05-rear.png",
+          "kind": "generated",
+          "sha256": "0e1daff8095789caf933ab290994ae33684e62656aa8d453dda53f7a229af73a",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "右侧补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/v06-right.png",
+          "kind": "generated",
+          "sha256": "2f9c1d7f1996f4083e6cb5ec468ff030dd3a623e872aaad2b2359835e0b95c9d",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "左后45°",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/v07-rear-left.png",
+          "kind": "generated",
+          "sha256": "a8ef9bf6a70022038ff497e484fccaa36c337c80ed6b8b19094c50245bd80137",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "俯视补图",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/v08-top.png",
+          "kind": "generated",
+          "sha256": "40c04e0c87230394410f75a96705adfb89f9be056aa6078d1c81060fdd8b4eaf",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "右后45°",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/v09-rear-right.png",
+          "kind": "generated",
+          "sha256": "5d53fb84dc60a33339cd0a3fd2622e5d1daf6a9e876299c163735e5ccefb5c73",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "前脸特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/d01-front.png",
+          "kind": "generated",
+          "sha256": "3995f67bba0bc2f215aae1a9c87aa2c7cbb7fe854955adf471e1d612b99250b6",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "灯组特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/d02-lamp.png",
+          "kind": "generated",
+          "sha256": "9dda9608a8df23882ed489fdeeae4981aba483bc64d891a38723e27a8984f26b",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "车顶特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/d03-roof.png",
+          "kind": "generated",
+          "sha256": "d974150a4134fc7fdde369c9d7c1592ea4354ffc72c783d7ec5cd5bb8f679b70",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "轮毂特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/d04-wheel.png",
+          "kind": "generated",
+          "sha256": "fb50449f48993f4c538c3201cd4aa2b8342421699f989d0346ac9321a1467e42",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "车尾特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/d05-rear.png",
+          "kind": "generated",
+          "sha256": "5c57d26f74c89aa06ab189ce4300f60956d6d31f9254356ab90a4557fd817375",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "车门特写",
+          "src": "/demos/3d/outputs/yellow-sports-car-rebuild-v7/project/references/d06-door.png",
+          "kind": "generated",
+          "sha256": "e8d8af7d18732200ace5423899605dacf57b5046e7aa85e0d343313d742d69a2",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        }
+      ]
+    },
+    "yellow-chick": {
+      "chatgpt": [
+        {
+          "label": "最初原图",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/original.png",
+          "kind": "original",
+          "sha256": "f2c291732656f5c126bddf3fb7cec5fb40aebf993d502b202ba5962cd32c52a4",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "多视角总览",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/overview.png",
+          "kind": "generated",
+          "sha256": "c85dfc9c835e70d66cf999e2b0cc7073690170bd597bdb921f1f375925f94622",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "正后",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/back.png",
+          "kind": "generated",
+          "sha256": "94a50378802cb288933926cb2fcded642b1fe0441cc45f53afbadb4376f21c59",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "正前",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/front.png",
+          "kind": "generated",
+          "sha256": "9954d0d0a60e427c3a3f4a6b3a67b5a894984632e7dbcc4c7ce14014d2ba64f1",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "左侧",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/left-side.png",
+          "kind": "generated",
+          "sha256": "5ae62ee2abbef0dfe76806dfde9ca92f654e89f37615ad6ef41e8a3e3a0ec2c9",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "后侧45°",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/rear-quarter.png",
+          "kind": "generated",
+          "sha256": "23f0fdb9cd7d93796269d48a55b7723781cd6da4c8fa4b8a583f2b4380738b2d",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "右侧",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/right-side.png",
+          "kind": "generated",
+          "sha256": "d2ff3329d42f7e71ea7888cccd021474c8a0fc9ce4162b3c31ddcf5023b79b28",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "俯视图",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/top.png",
+          "kind": "generated",
+          "sha256": "c4a69c05a6f5fbd04369d42d3a5eca5d798ab0c3e3a7e3069c5faf8ee9fc6cc2",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "冠羽根部",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/crest-root.png",
+          "kind": "generated",
+          "sha256": "5d92f90e91aeef13adef3cf12c7eb4bc43bce9cff6a3628ccf0c2a8ea69baf88",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "脚部与踝部",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/feet-ankles.png",
+          "kind": "generated",
+          "sha256": "3a82130a7ac6e35cc59c121cb49844a8be8c2a08ffa79b7b437d7303307f987a",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "尾巴根部",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/tail-root.png",
+          "kind": "generated",
+          "sha256": "716d44bce6bd5ba26b663c21a78858c25144db55e0f9ea8dd07510f6a6ca4a91",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "翅膀根部",
+          "src": "/demos/3d/outputs/reference-standard-upgrade-20261013/chick/task/references/wing-root.png",
+          "kind": "generated",
+          "sha256": "8a9274abd0bbd7555910d0646b94dc983dee5372c9e66280d57df4c8980ff79a",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        }
+      ]
+    },
+    "blue-teapot": {
+      "chatgpt": [
+        {
+          "label": "最初原图",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/original.png",
+          "kind": "original",
+          "sha256": "d26067d8b021a1d451d7feadb09f6d91a104729f5d506e2ea2ef26632fb70a7f",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "多视角总览",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/overview-v1.png",
+          "kind": "generated",
+          "sha256": "3d46494eb3bf1da9c53c42ded8a5c99b95d27229f9c0273cf913a137122e40cf",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "侧视图",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/profile-v2.png",
+          "kind": "generated",
+          "sha256": "fae356fe22fc1b820fd3b82d7ab38bdb9854f8be9a6ffdb6e5bbe88f69a6e882",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "俯视图",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/top.png",
+          "kind": "generated",
+          "sha256": "3a1335e24cb80f7b7e236ee7495b43c8aefd709cf99ea6448aa187cbba10dc34",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "后侧45°",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/rear45.png",
+          "kind": "generated",
+          "sha256": "a60f1ad8993e10b2990a3bb1651655b483bffd8f3cf897250fad883318073f96",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "壶嘴口沿",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/spout-end.png",
+          "kind": "generated",
+          "sha256": "b1aec2003f3650bc9822189e69bf2d3118d64d55f2d34d9fb0f08b617cb64508",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "壶嘴特写",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/spout-detail.png",
+          "kind": "generated",
+          "sha256": "e89e5999e538d10d3b70e117c0b874445f1774a8e6aaf7db8c0f916fc40a93c3",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "壶把特写",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/handle-detail.png",
+          "kind": "generated",
+          "sha256": "59be7ad951d166d10bd9dadc4a750bc6367d75fbc0f3668d8edacfd5a813c8f5",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        }
+      ],
+      "claude": [
+        {
+          "label": "最初原图",
+          "src": "/demos/3d/outputs/blue-teapot-20261016/viewer/references/original.jpeg",
+          "kind": "original",
+          "sha256": "85c1cfb6457331255cf46bfd38fe6302df512447e5959aa3f8723d391dacc9db",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "多视角总览",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/overview-v1.png",
+          "kind": "generated",
+          "sha256": "3d46494eb3bf1da9c53c42ded8a5c99b95d27229f9c0273cf913a137122e40cf",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "侧视图",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/profile-v2.png",
+          "kind": "generated",
+          "sha256": "fae356fe22fc1b820fd3b82d7ab38bdb9854f8be9a6ffdb6e5bbe88f69a6e882",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "俯视图",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/top.png",
+          "kind": "generated",
+          "sha256": "3a1335e24cb80f7b7e236ee7495b43c8aefd709cf99ea6448aa187cbba10dc34",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "后侧45°",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/rear45.png",
+          "kind": "generated",
+          "sha256": "a60f1ad8993e10b2990a3bb1651655b483bffd8f3cf897250fad883318073f96",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "壶嘴口沿",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/spout-end.png",
+          "kind": "generated",
+          "sha256": "b1aec2003f3650bc9822189e69bf2d3118d64d55f2d34d9fb0f08b617cb64508",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "壶嘴特写",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/spout-detail.png",
+          "kind": "generated",
+          "sha256": "e89e5999e538d10d3b70e117c0b874445f1774a8e6aaf7db8c0f916fc40a93c3",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        },
+        {
+          "label": "壶把特写",
+          "src": "/demos/3d/outputs/teapot-independent-20261015/project/references/handle-detail.png",
+          "kind": "generated",
+          "sha256": "59be7ad951d166d10bd9dadc4a750bc6367d75fbc0f3668d8edacfd5a813c8f5",
+          "note": "已确认生成建模参考；隐藏形状属于设计补全。"
+        }
+      ]
+    },
+    "cloth-doll": {
+      "chatgpt": [
+        {
+          "label": "布娃娃原图",
+          "src": "/demos/3d/outputs/model-delivery-compact-20261018/doll/references/original.png",
+          "kind": "original",
+          "sha256": "9d322f0d8c263a413a71955409eb92908aa41979d6cc60c1d60acf14d2b10100",
+          "note": "原始建模参考图"
+        },
+        {
+          "label": "头部原图特写",
+          "src": "/demos/3d/outputs/model-delivery-compact-20261018/doll/references/reference-head-crop.png",
+          "kind": "crop",
+          "sha256": "d8f6af08b4369786a81f48a7217a0bca35d61ca1ee3e727885117cf3d56f3fb6",
+          "note": "原图局部裁切，不增加新视角。"
+        },
+        {
+          "label": "服装原图特写",
+          "src": "/demos/3d/outputs/model-delivery-compact-20261018/doll/references/reference-garment-crop.png",
+          "kind": "crop",
+          "sha256": "92c8b227b3845387bf95511e44c53180af1cd7d8505e383be004d5a5860c2438",
+          "note": "原图局部裁切，不增加新视角。"
+        },
+        {
+          "label": "圆润造型 · 多视图总览",
+          "src": "/demos/3d/outputs/model-delivery-compact-20261018/doll/references/roundness-overview-v1.png",
+          "kind": "generated",
+          "sha256": "d8b2430e19f36b60ee894a8a37520b6f648cf71615922ed60d3169096f7ada16",
+          "note": "本轮已确认的侧背圆润度设计总览；生成补图，隐藏深度为设计推断。"
+        },
+        {
+          "label": "圆润造型 · 侧面",
+          "src": "/demos/3d/outputs/model-delivery-compact-20261018/doll/references/side-v1.png",
+          "kind": "generated",
+          "sha256": "a6fc88c06a48916fe0e6a3cca51c89a0b81c67d891f3d3f1a6bf23f37776c6bc",
+          "note": "基于已确认总览生成的独立侧面补图；机位近似，不是实测正交工程图。"
+        },
+        {
+          "label": "圆润造型 · 前侧",
+          "src": "/demos/3d/outputs/model-delivery-compact-20261018/doll/references/quarter-v1.png",
+          "kind": "generated",
+          "sha256": "544234bab73be667d99342cab15340035bc6d2116ef480d1a214b6d12488f9a2",
+          "note": "基于已确认总览生成的独立斜前补图；实际偏转角约20°，不标为严格45°。"
+        }
+      ]
+    },
+    "silver-suv": {
+      "chatgpt": [
+        {
+          "label": "前方45°",
+          "src": "/demos/3d/outputs/silver-suv-surface-repair-20261014/viewer/reference-views-lidar-v6/left-45.png",
+          "kind": "original",
+          "sha256": "10e4cf1c44b07b7c61c273eb4c97fa1b211f629ea969fac5d8d238a7a7e79759",
+          "note": "原案例生成设计参考；非实测工程图，底模与参考仍存在形似误差。"
+        },
+        {
+          "label": "正侧视图",
+          "src": "/demos/3d/outputs/silver-suv-surface-repair-20261014/viewer/reference-views-lidar-v6/left-side.png",
+          "kind": "original",
+          "sha256": "ec189fc9d6ff0dc14e574a8409bed647d2ad5535bcb884312e3dc80d7c81eb0c",
+          "note": "原案例生成设计参考；非实测工程图，底模与参考仍存在形似误差。"
+        },
+        {
+          "label": "正后视图",
+          "src": "/demos/3d/outputs/silver-suv-surface-repair-20261014/viewer/reference-views-lidar-v6/rear.png",
+          "kind": "original",
+          "sha256": "33da78a35f6346df2d05940eb6cc5814c9820ca856c0a012ab8f06bb84ed801e",
+          "note": "原案例生成设计参考；非实测工程图，底模与参考仍存在形似误差。"
+        },
+        {
+          "label": "历史补充 · 前侧 45°",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/01-front-left.png",
+          "kind": "historical",
+          "sha256": "914f7525a61ba634df00b882864307f4ffd831fd85f784a69b920cb00d1f860c",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 车头",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/02-front.png",
+          "kind": "historical",
+          "sha256": "7ecbd6dcc07f7e4ded5b67588c4f7431e6e82912dab290079375d5a78c2157c2",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 左侧",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/03-left.png",
+          "kind": "historical",
+          "sha256": "f363e6ede1ba936a813d74fc92e15b80d2b87fe28ca677cee56ebf3139a7873f",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 后侧 45°",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/04-rear-left.png",
+          "kind": "historical",
+          "sha256": "9e824a9ca895aae639c171b2a84d0be276dbaebb425b31e997cf31c59120579f",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 车尾",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/05-rear.png",
+          "kind": "historical",
+          "sha256": "7441f1ca74654d98a6e1754304ccc06d2d8be93aa6204694373c77d4a3da39e0",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 右侧",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/06-right.png",
+          "kind": "historical",
+          "sha256": "c77c2bdddb32be1943a3c6cb175f6d884b79694bd24cab1701f85ed95edf49de",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 右前 45°",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/07-front-right.png",
+          "kind": "historical",
+          "sha256": "5c2c8c779a23e118cf2ac2ddb43f75b24ada73baf158b7aeea50545b882d1ab5",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 俯视",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/08-top.png",
+          "kind": "historical",
+          "sha256": "4b9f37481f137f757f7f0d53610a6a6f3679d7c0d717c7e9e3da31416c987c1c",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 前脸与贯穿灯",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/d01-front.png",
+          "kind": "historical",
+          "sha256": "925291d3f34d7374f987b40f053b5131bf6b9774d6037e37f0ea9e67ea59aaed",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 灯腔与进气转角",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/d02-lamp.png",
+          "kind": "historical",
+          "sha256": "522c222e6872445c94d440afd2f767f753db1494ac615a2e9fd431d6a1099dc7",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 车顶与侧窗",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/d03-roof.png",
+          "kind": "historical",
+          "sha256": "2a1eccdf0e458c26974ae4932e1ca943143c3c9f64774936991d766ce028fb64",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 轮毂与轮拱",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/d04-wheel.png",
+          "kind": "historical",
+          "sha256": "2486a52ef15c8dd4c7e9cca8dcbd18035cd1bcc787e0d46ce184573202935e9f",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 尾灯与后包围",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/d05-rear.png",
+          "kind": "historical",
+          "sha256": "9731fd35e60aa01ec404df84fb4a17d51ef6ba0ec03910a69caa9410d93e15fa",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        },
+        {
+          "label": "历史补充 · 门面与接缝",
+          "src": "/demos/3d/outputs/automotive-from-images/references/hd-v1/d06-door.png",
+          "kind": "historical",
+          "sha256": "ec2ed797e491136f4313ba8a695d0c9430377354225b909d1677e8dd7a6ffe83",
+          "note": "历史生成参考，与当前版本可能有细节差异。"
+        }
+      ]
+    }
+  }
+}
