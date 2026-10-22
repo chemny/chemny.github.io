@@ -5,7 +5,7 @@ export function mountVehicleLighting(r,id){
  if(!(id in vehicleYaw))return null;
  const {scene,root}=r,yaw=vehicleYaw[id],materials=new Map(),beams=new Map();
  const bounds=new r.T.Box3().setFromObject(root),size=bounds.getSize(new r.T.Vector3()),center=bounds.getCenter(new r.T.Vector3());
- scene.userData.vehicleGroundFootprint={width:yaw?size.z:size.x,length:yaw?size.x:size.z,center:[Math.cos(yaw)*center.x-Math.sin(yaw)*center.z,Math.sin(yaw)*center.x+Math.cos(yaw)*center.z]};
+ scene.userData.vehicleGroundFootprint={...scene.userData.vehicleGroundFootprint,width:yaw?size.z:size.x,length:yaw?size.x:size.z,center:[Math.cos(yaw)*center.x-Math.sin(yaw)*center.z,Math.sin(yaw)*center.x+Math.cos(yaw)*center.z]};
  const previousYaw=scene.userData.vehiclePresentationYaw;
  scene.userData.vehiclePresentationYaw=yaw;
  scene.userData.vehicleSoftLightingScenes=['light','architecture','dark'];

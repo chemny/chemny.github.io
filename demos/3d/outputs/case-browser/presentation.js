@@ -184,7 +184,7 @@ export function createPresentation(T,renderer,scene,{objectBounds=null,stageDist
       ['courtyard_sky_fill',[9,9,-5],[12,10],1.2,'#f0f3f5',[0,.6,0]]
     ];
     const powers={showroom_top_key:.35,showroom_side_rim:.22,showroom_front_fill:.14,showroom_opposite_fill:.15,studio_large_key:.50,studio_soft_fill:.10,studio_rear_shape:.20,courtyard_daylight:1.5,courtyard_sky_fill:.12};
-    entry.stage.traverse(o=>{if(o.isDirectionalLight&&powers[o.name]!==undefined){o.intensity=powers[o.name];if(o.castShadow){o.shadow.radius=8;o.shadow.normalBias=.012;}}});
+    entry.stage.traverse(o=>{if(o.isDirectionalLight&&powers[o.name]!==undefined){o.intensity=powers[o.name];if(o.castShadow){o.shadow.radius=5;o.shadow.normalBias=.001;o.shadow.bias=-.00003;}}});
     for(const[name,pos,size,power,color,target]of specs){
       const light=new T.RectAreaLight(color,power,...size);light.name='area_'+name;
       // Aim before parenting: the stage may already have a vehicle-specific yaw.
@@ -195,16 +195,24 @@ export function createPresentation(T,renderer,scene,{objectBounds=null,stageDist
     // occlusion beneath the real vehicle footprint, rather than leaving it floating.
     const footprint=scene.userData.vehicleGroundFootprint;
     if(footprint){
+      // Stable contact-only vehicle ground: no competing realtime ground shadow.
+      const ground=entry.stage.getObjectByName('stage_ground');if(ground)ground.receiveShadow=false;
       const width=Math.min(3,Math.max(1.4,footprint.width)),length=Math.min(7,Math.max(3.5,footprint.length));
-      const mat=new T.ShaderMaterial({transparent:true,depthWrite:false,toneMapped:false,uniforms:{extent:{value:new T.Vector2(width,length)}},vertexShader:'varying vec2 groundUV;void main(){groundUV=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',fragmentShader:'varying vec2 groundUV;uniform vec2 extent;void main(){vec2 p=(groundUV-.5)*extent*1.6;vec2 b=abs(p)/(extent*vec2(.43,.40));float alpha=.34*exp(-pow(b.x,6.)-pow(b.y,6.));for(int i=0;i<2;i++){float x=(i==0?-1.:1.)*extent.x*.46;for(int j=0;j<2;j++){float z=(j==0?-1.:1.)*extent.y*.30;vec2 q=(p-vec2(x,z))/vec2(.18,.28);alpha+=.38*exp(-dot(q,q)*1.5);}}gl_FragColor=vec4(0.,0.,0.,min(.56,alpha));}'});
+      const yaw=scene.userData.vehiclePresentationYaw??0,c=Math.cos(yaw),s=Math.sin(yaw);
+      const contacts=(footprint.wheels||[]).map(w=>new T.Vector2(c*w.center[0]-s*w.center[1]-footprint.center[0],s*w.center[0]+c*w.center[1]-footprint.center[1]));
+      const radii=(footprint.wheels||[]).map(w=>new T.Vector2(Math.max(.075,w.width*.55),.12));
+      const mat=new T.ShaderMaterial({transparent:true,depthWrite:false,polygonOffset:true,polygonOffsetFactor:-2,polygonOffsetUnits:-4,toneMapped:false,uniforms:{extent:{value:new T.Vector2(width,length)},tireContacts:{value:contacts.length===4?contacts:[0,1,2,3].map(()=>new T.Vector2())},tireRadii:{value:radii.length===4?radii:[0,1,2,3].map(()=>new T.Vector2(.12,.12))}},vertexShader:'varying vec2 groundUV;void main(){groundUV=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',fragmentShader:'varying vec2 groundUV;uniform vec2 extent;uniform vec2 tireContacts[4];uniform vec2 tireRadii[4];void main(){vec2 p=vec2(groundUV.x-.5,.5-groundUV.y)*extent*1.6;vec2 b=abs(p)/(extent*vec2(.40,.40));float alpha=.24*exp(-pow(b.x,6.)-pow(b.y,6.));for(int i=0;i<4;i++){vec2 q=(p-tireContacts[i])/tireRadii[i];alpha+=.58*exp(-dot(q,q)*1.8)+.14*exp(-dot(q,q)*.30);}gl_FragColor=vec4(0.,0.,0.,min(.76,alpha));}'});
       const contact=object(new T.PlaneGeometry(width*1.6,length*1.6),mat,'vehicle_soft_contact_occlusion',entry.stage);
-      contact.rotation.x=-Math.PI/2;contact.position.set(footprint.center[0],-.012,footprint.center[1]);contact.renderOrder=1;contact.userData.approximateContactShadow=true;
+      contact.rotation.x=-Math.PI/2;contact.position.set(footprint.center[0],(footprint.groundY??-.018)+.002,footprint.center[1]);contact.renderOrder=1;contact.userData.approximateContactShadow=true;
+
     }
     entry.vehicleSoftLighting=true;entry.stage.userData.vehicleSoftLighting=true;renderer.shadowMap.needsUpdate=true;
   }
   function orient(entry){
     const yaw=scene.userData.vehiclePresentationYaw??0;
     if(entry.stage.rotation.y!==yaw){entry.stage.rotation.y=yaw;entry.stage.updateMatrixWorld(true);renderer.shadowMap.needsUpdate=true;}
+    const groundY=scene.userData.vehicleGroundFootprint?.groundY;
+    if(Number.isFinite(groundY)){const floor=entry.stage.getObjectByName('stage_ground');if(floor)floor.position.y=groundY;const contact=entry.stage.getObjectByName('vehicle_soft_contact_occlusion');if(contact)contact.position.y=groundY+.002;const sweep=entry.stage.getObjectByName('continuous_cyclorama');if(sweep)sweep.position.y=groundY+.02;entry.stage.updateMatrixWorld(true);}
     // Rotate the canonical reflection capture with the real stage, never the model.
     scene.environmentRotation.set(0,yaw,0);
   }

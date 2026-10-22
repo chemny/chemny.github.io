@@ -2,7 +2,7 @@
   "schema_version": 2,
   "asset": {
     "id": "existing-vehicle-v17",
-    "version": "dd9762e1428a38e52eca255b07e542518986c70171c53da1bc5005f65bb363a7",
+    "version": "e4f512d1289ed052fab1d15ce66aa84d992bb2a253fb6d12949409838d535e65",
     "sha256": "dd9762e1428a38e52eca255b07e542518986c70171c53da1bc5005f65bb363a7",
     "source": "./model.glb.gz",
     "bytes": 74395008,
