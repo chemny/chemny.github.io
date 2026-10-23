@@ -1,0 +1,471 @@
+{
+  "provenance": "Existing AI-generated test material approved in this conversation; web copies retain aspect ratio. Grid crops are preview excerpts.",
+  "files": [
+    {
+      "asset": "wedding-sheet.webp",
+      "source": "wedding-preview-test/wedding-nine-grid-preview.jpg",
+      "source_sha256": "76b53735e4d9abd48f69e9c06f6f7298b060d4edcb3976ff973cb37d42e60b97",
+      "size": [
+        1092,
+        1456
+      ],
+      "kind": "approved AI synthetic test material"
+    },
+    {
+      "asset": "branding-sheet.webp",
+      "source": "branding-preview-test/personal-branding-nine-grid-headroom-fixed.png",
+      "source_sha256": "7990fd986fce2199eddc345ff9cf522e893b1d7fb3c380700f479d3ba2735a26",
+      "size": [
+        1086,
+        1448
+      ],
+      "kind": "approved AI synthetic test material"
+    },
+    {
+      "asset": "family-sheet.webp",
+      "source": "family-everyday-preview/family-six-grid-preview.png",
+      "source_sha256": "13f81c011873ef1afffcab86124fe9f0b24b10feab5b44c0e48270fd26f48de6",
+      "size": [
+        1881,
+        836
+      ],
+      "kind": "approved AI synthetic test material"
+    },
+    {
+      "asset": "pet-sheet.webp",
+      "source": "pet-themed-nine-grid/pet-themed-nine-grid.jpg",
+      "source_sha256": "6cd57dc4164998ffe400fc8b75a51cfe848d72f29ea048b22f7d95cad9c98268",
+      "size": [
+        3282,
+        4376
+      ],
+      "kind": "approved AI synthetic test material"
+    },
+    {
+      "asset": "woman-source.webp",
+      "source": "approved-frontal-sources/woman-reference.png",
+      "source_sha256": "7b9de95ad6b127f01289566267490249c1622c713046bb894e26f4c25fbae517",
+      "size": [
+        765,
+        1024
+      ],
+      "kind": "approved AI synthetic test material"
+    },
+    {
+      "asset": "man-source.webp",
+      "source": "approved-frontal-sources/man-reference.png",
+      "source_sha256": "9f6c6996686f83be32ba3b8551e2815f9928434878478da753446078044ca9fa",
+      "size": [
+        766,
+        1024
+      ],
+      "kind": "approved AI synthetic test material"
+    },
+    {
+      "asset": "child-source.webp",
+      "source": "source-materials-v3/child-reference.png",
+      "source_sha256": "cba9b14f8d1ece8a7dee5aa471ec23db0e266c5cd36d1e6bfc3c7a6b48201fee",
+      "size": [
+        1086,
+        1448
+      ],
+      "kind": "approved AI synthetic test material"
+    },
+    {
+      "asset": "family-source.webp",
+      "source": "source-materials-v3/family-reference.png",
+      "source_sha256": "a4b1e5e9c13d9b60719c56fe0dcd18aeedfa7f8f7919926f6a78258e28a84577",
+      "size": [
+        1448,
+        1086
+      ],
+      "kind": "approved AI synthetic test material"
+    },
+    {
+      "asset": "pet-source.webp",
+      "source": "source-materials-v3/pet-reference.png",
+      "source_sha256": "e49f9bc986b1273187deebfdbf746d671d988fb16300f38df8bee3f28d9bfa02",
+      "size": [
+        1086,
+        1448
+      ],
+      "kind": "approved AI synthetic test material"
+    },
+    {
+      "asset": "family-before.webp",
+      "source": "family-everyday-preview/initial-preview.png",
+      "source_sha256": "45573b75a483c02f5f2cde18a02ea24e3210f64d1ac34c6779cf1c8a0fac8517",
+      "size": [
+        1881,
+        836
+      ],
+      "kind": "actual initial AI preview with cropped shoes"
+    },
+    {
+      "asset": "wedding-cell-1.webp",
+      "source": "wedding-sheet.webp",
+      "crop": [
+        3,
+        3,
+        361,
+        482
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "wedding-cell-2.webp",
+      "source": "wedding-sheet.webp",
+      "crop": [
+        367,
+        3,
+        725,
+        482
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "wedding-cell-3.webp",
+      "source": "wedding-sheet.webp",
+      "crop": [
+        731,
+        3,
+        1089,
+        482
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "wedding-cell-4.webp",
+      "source": "wedding-sheet.webp",
+      "crop": [
+        3,
+        488,
+        361,
+        968
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "wedding-cell-5.webp",
+      "source": "wedding-sheet.webp",
+      "crop": [
+        367,
+        488,
+        725,
+        968
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "wedding-cell-6.webp",
+      "source": "wedding-sheet.webp",
+      "crop": [
+        731,
+        488,
+        1089,
+        968
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "wedding-cell-7.webp",
+      "source": "wedding-sheet.webp",
+      "crop": [
+        3,
+        974,
+        361,
+        1453
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "wedding-cell-8.webp",
+      "source": "wedding-sheet.webp",
+      "crop": [
+        367,
+        974,
+        725,
+        1453
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "wedding-cell-9.webp",
+      "source": "wedding-sheet.webp",
+      "crop": [
+        731,
+        974,
+        1089,
+        1453
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "branding-cell-1.webp",
+      "source": "branding-sheet.webp",
+      "crop": [
+        3,
+        3,
+        359,
+        480
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "branding-cell-2.webp",
+      "source": "branding-sheet.webp",
+      "crop": [
+        365,
+        3,
+        721,
+        480
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "branding-cell-3.webp",
+      "source": "branding-sheet.webp",
+      "crop": [
+        727,
+        3,
+        1083,
+        480
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "branding-cell-4.webp",
+      "source": "branding-sheet.webp",
+      "crop": [
+        3,
+        486,
+        359,
+        962
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "branding-cell-5.webp",
+      "source": "branding-sheet.webp",
+      "crop": [
+        365,
+        486,
+        721,
+        962
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "branding-cell-6.webp",
+      "source": "branding-sheet.webp",
+      "crop": [
+        727,
+        486,
+        1083,
+        962
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "branding-cell-7.webp",
+      "source": "branding-sheet.webp",
+      "crop": [
+        3,
+        968,
+        359,
+        1445
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "branding-cell-8.webp",
+      "source": "branding-sheet.webp",
+      "crop": [
+        365,
+        968,
+        721,
+        1445
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "branding-cell-9.webp",
+      "source": "branding-sheet.webp",
+      "crop": [
+        727,
+        968,
+        1083,
+        1445
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "family-cell-1.webp",
+      "source": "family-sheet.webp",
+      "crop": [
+        3,
+        3,
+        624,
+        415
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "family-cell-2.webp",
+      "source": "family-sheet.webp",
+      "crop": [
+        630,
+        3,
+        1251,
+        415
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "family-cell-3.webp",
+      "source": "family-sheet.webp",
+      "crop": [
+        1257,
+        3,
+        1878,
+        415
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "family-cell-4.webp",
+      "source": "family-sheet.webp",
+      "crop": [
+        3,
+        421,
+        624,
+        833
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "family-cell-5.webp",
+      "source": "family-sheet.webp",
+      "crop": [
+        630,
+        421,
+        1251,
+        833
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "family-cell-6.webp",
+      "source": "family-sheet.webp",
+      "crop": [
+        1257,
+        421,
+        1878,
+        833
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "pet-cell-1.webp",
+      "source": "pet-sheet.webp",
+      "crop": [
+        3,
+        3,
+        1091,
+        1456
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "pet-cell-2.webp",
+      "source": "pet-sheet.webp",
+      "crop": [
+        1097,
+        3,
+        2185,
+        1456
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "pet-cell-3.webp",
+      "source": "pet-sheet.webp",
+      "crop": [
+        2191,
+        3,
+        3279,
+        1456
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "pet-cell-4.webp",
+      "source": "pet-sheet.webp",
+      "crop": [
+        3,
+        1462,
+        1091,
+        2914
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "pet-cell-5.webp",
+      "source": "pet-sheet.webp",
+      "crop": [
+        1097,
+        1462,
+        2185,
+        2914
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "pet-cell-6.webp",
+      "source": "pet-sheet.webp",
+      "crop": [
+        2191,
+        1462,
+        3279,
+        2914
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "pet-cell-7.webp",
+      "source": "pet-sheet.webp",
+      "crop": [
+        3,
+        2920,
+        1091,
+        4373
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "pet-cell-8.webp",
+      "source": "pet-sheet.webp",
+      "crop": [
+        1097,
+        2920,
+        2185,
+        4373
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "asset": "pet-cell-9.webp",
+      "source": "pet-sheet.webp",
+      "crop": [
+        2191,
+        2920,
+        3279,
+        4373
+      ],
+      "kind": "preview panel excerpt, not separately generated final"
+    },
+    {
+      "revision_comparison": "actual same top-left family panel before and after framing repair; no synthetic before image"
+    }
+  ]
+}

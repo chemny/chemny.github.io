@@ -34,3 +34,7 @@ GitHub 项目资料读取于 2026-10-13，只展示 chemny 的公开、非 fork 
 `project-image-to-3d.html` 保留原有项目详情，原占位图已替换为六个当前模型的润色展示封面，点击图片直接打开 `demos/3d/`。作品列表保持原有 Image to 3D 条目，不新增独立案例。`demos/3d/` 为六个案例、八个当前模型版本的完整静态演示。演示资源仅按案例选择加载，不包含历史模型、回退数据、清理记录或本机工程脚本。
 
 模型支持 WebGL，部分资源使用浏览器 DecompressionStream 解压，需要现代浏览器和 HTTP(S) 环境；不可通过 file:// 运行。保留 .nojekyll。大模型首次加载所需时间取决于网络和设备，GitHub Pages 发布后应复查线上资源与解压。
+
+## Photo Studio 摄影案例
+
+`project-photo-studio.html` 展示已确认摄影作品、工作流程与真实返修对比；`demos/photo-studio/` 提供四种主题切换、完整预览、33个画格放大和滑块对比。`assets/photo-studio/manifest.json` 记录素材来源；人物和宠物为 AI 合成测试素材，单格图为预览节选，不作为独立生成成片。页面为静态作品演示，不调用在线生图服务。
