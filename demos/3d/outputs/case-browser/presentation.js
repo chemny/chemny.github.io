@@ -1,4 +1,4 @@
-import {initAreaLights} from './vendor/area-light-init.js';
+import {initAreaLights} from './vendor/area-light-init.js?v=loading-v1-20261023';
 // Authored presentation stages. Main-view geometry never contains softbox cards.
 // All stage directions are in world space; the car and camera may orbit independently.
 export function createPresentation(T,renderer,scene,{objectBounds=null,stageDistance=0}={}){

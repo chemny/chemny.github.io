@@ -7,20 +7,22 @@
   },
   "files": {
     "semantic-mask-v9.png": "b0603ad81aae35e9931f083c869f5ba1251293167a24d7b3116d1e1bc3299a32",
-    "index.html": "abb0f61f43fa6ed3a4a694eb163cc028ad9363e591c84be5632e19969eef3d9c",
-    "config.json": "f10a4061cbc4b52cc3fb4e2a2b3f2ece990d1f6403501765f4711f08d105ac1b",
+    "index.html": "d61b3faff007e0423b87c5372322342203d5f96f960cdd87c04a8d4360c37712",
+    "config.json": "5361c38b12d66ae05937831bb4524fee4874630b83ca766d5ccf5f09c9a4c37a",
     "semantic-paint-v17.js": "056d798eaed1ed4ba6ec3381139b3d9c578ab3599210f81b1a80d6607af53b82",
-    "case-adapter.js": "60027674a58eb4596f04c0455c210c5721f5f4632b4f5607f11989f9acd35d0e",
+    "case-adapter.js": "d56fb3bf6bd17494993d842c51cc7a0641f425d15d01d298cd71c0ec626fc66b",
     "asset-manifest.json": "08543fff2a663004f559aaee3fe19280138ada50c8505e85275717ff2d4b508e",
     "selection.js": "4eb8d02feb0047dbc962b73f0ad3c291cd233cdaacafa2f5dd64f709227d235e",
     "style.css": "987a06d0005f24ba2b2008048777696f576bde664850b7f38a817d8f7ffbca66",
-    "app.js": "524deb58589e08dbccd012404259c546f87c2a0d5e04e118649dd990742d8313",
+    "app.js": "73c1d152b63bc35c6bdaa451926aac296fdcda38eb54ae8cfcbdf4806e64ab1d",
     "material-binding.js": "97a65da4768bf8e1bd13f683898210f5793920935c065c1594b1c0245ace7284",
     "reference-views-lidar-v6/left-45.png": "10e4cf1c44b07b7c61c273eb4c97fa1b211f629ea969fac5d8d238a7a7e79759",
     "reference-views-lidar-v6/rear.png": "33da78a35f6346df2d05940eb6cc5814c9820ca856c0a012ab8f06bb84ed801e",
     "reference-views-lidar-v6/left-side.png": "ec189fc9d6ff0dc14e574a8409bed647d2ad5535bcb884312e3dc80d7c81eb0c",
     "door-assembly.js": "bdaca5b1c23896c48cd19a5f27552d162fa31a2de7e120d1961d3b968e496ee4",
     "performance.js": "96eba6c654ad9da0f27ae765ec4cf8947097c4b3d34c95e5f2f6cb2d8dd9b12a",
-    "model.glb.gz": "d8835a5fd630f37dd9f58a5751b9d32bcc8cfd828aa971b4d609e0a13ee2ed5f"
+    "model.glb.gz": "d8835a5fd630f37dd9f58a5751b9d32bcc8cfd828aa971b4d609e0a13ee2ed5f",
+    "assembly-cache.bin.gz": "562dc6ca75e8e05b068121d5684ee6a4864ce3407a52a5a6009399bba88a4a09",
+    "assembly-cache.js": "3d72d407e5ac25e7b46d3a8a0c033b24bfd435b96a3ed613cca2b8a31fcead67"
   }
 }

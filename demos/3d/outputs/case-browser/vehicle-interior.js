@@ -61,12 +61,14 @@ export function mountVehicleInterior({r,win,caseId,source,doors}){
   for(const sign of[-1,1]){box('SillTrim',[.065,.055,silver?2.1:1.4],[sign*(silver?.82:.82),silver?.495:.22,silver?-.08:.06],dark);}
   // Upholstered trim follows the same real pivots used by mouse picking and menu controls.
   for(const {id}of doors.items){const sign=id.startsWith('L')?1:-1,front=id.endsWith('F'),pivot=root.getObjectByName((sports?'UnifiedDoorPivot_':'DoorPivot_')+id);if(!pivot)throw Error('缺少内门板安装节点 '+id);const dg=new T.Group();dg.name='InteriorV1_DoorTrim_'+id;added.add(dg);const z=sports?.09:front?.48:-.63,armY=sports?.65:.91,x=sign*(sports?.86:.84),length=sports?.76:front?.75:.58;
-   root.updateMatrixWorld(true);const samples=[];pivot.traverse(o=>{if(!o.isMesh||!(/body_shell_door|DoorExterior_|DoorRecovered_/.test(o.name)))return;const p=o.geometry.attributes.position,n=o.geometry.attributes.normal;for(let i=0;i<p.count;i++){const v=new T.Vector3().fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld);root.worldToLocal(v);if(sign*v.x>.55&&(!n||sign*n.getX(i)>.15))samples.push(v);}});
-   if(!samples.length)throw Error('无法核实内门板与门皮的间隙 '+id);
+   const precomputed=silver?r.assemblyCache?.meta.interior[id]:null;root.updateMatrixWorld(true);const samples=[];if(!precomputed)pivot.traverse(o=>{if(!o.isMesh||!(/body_shell_door|DoorExterior_|DoorRecovered_/.test(o.name)))return;const p=o.geometry.attributes.position,n=o.geometry.attributes.normal;for(let i=0;i<p.count;i++){const v=new T.Vector3().fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld);root.worldToLocal(v);if(sign*v.x>.55&&(!n||sign*n.getX(i)>.15))samples.push(v);}});
+   if(!precomputed&&!samples.length)throw Error('无法核实内门板与门皮的间隙 '+id);
    const surface=(y,z)=>{let best=Infinity,x=0;for(const p of samples){const d=(p.y-y)**2+(p.z-z)**2;if(d<best){best=d;x=sign*p.x;}}return x;};
    // Independent molded inner trim, not an offset copy of scanned exterior triangles.
    const trimX=y=>(front?.78:.88)+(front?.15:.065)*T.MathUtils.smoothstep(y,.50,1.19);
-   if(silver){
+   if(precomputed){
+    for(const[key,name,mat]of [['panel','MoldedDoorPanel_',leather],['returns','DoorPanelReturn_',dark]]){const item=precomputed[key];if(!item)throw Error('门内板缓存缺失 '+id);const g=new T.BufferGeometryLoader().parse(item.geometry),m=add(g,mat,name+id,[0,0,0],dg);m.userData.independentDoorPanel=true;if(item.joins)m.userData.joins=item.joins;}
+   }else if(silver){
     const vertices=[],indices=[],nu=24,nv=24,outline=[];
     for(let j=0;j<=nv;j++){const y=.51+.685*j/nv,near=samples.filter(p=>Math.abs(p.y-y)<.025);if(near.length<2)throw Error('缺少门内板边缘样本 '+id);outline.push([Math.min(...near.map(p=>p.z))+.025,Math.max(...near.map(p=>p.z))-.025]);}
     // Smooth measured border samples, without reproducing individual scanned wrinkles.

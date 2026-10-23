@@ -1,6 +1,18 @@
+// Cached reconstruction preserves each Float32 attribute and existing material binding.
+function applyPrecomputedDoors(r){
+ const T=r.T,cache=r.assemblyCache,meta=cache.meta,root=r.root,sources=new Map(),originals=[],added=[],transforms=[];
+ const find=name=>{const found=[];root.traverse(o=>{if(o.name===name)found.push(o)});if(found.length!==1)throw Error('装配节点不唯一 '+name);return found[0];};
+ for(const item of meta.fixed){const mesh=find(item.name);sources.set(item.name,mesh.geometry);}
+ const lining=new T.MeshStandardMaterial({color:'#70695e',roughness:.8,side:T.DoubleSide});
+ for(const item of meta.fixed){const mesh=find(item.name),g=cache.createGeometry(T,sources,item.geometry);originals.push([mesh,mesh.geometry,g]);mesh.geometry=g;}
+ for(const item of meta.hinges){const pivot=find(item.name),old=pivot.position.clone(),next=new T.Vector3().fromArray(item.next),delta=old.clone().sub(next);transforms.push([pivot,old,delta]);for(const child of pivot.children)child.position.add(delta);pivot.position.copy(next);const id=item.name.slice(-2);for(const y of [.72,1.08])for(const prefix of ['DoorHingeBracket_','DoorHingePin_']){const bracket=root.getObjectByName(prefix+id+'_'+y);if(bracket){transforms.push([bracket,bracket.position.clone(),null]);bracket.position.x+=next.x-old.x;}}}
+ for(const item of meta.extras){const material=item.materialSource?find(item.materialSource).material:lining,m=new T.Mesh(cache.createGeometry(T,sources,item.geometry),material);m.name=item.name;m.position.fromArray(item.position);m.quaternion.fromArray(item.quaternion);m.scale.fromArray(item.scale);m.castShadow=!!item.materialSource;m.receiveShadow=!!item.materialSource;find(item.parent).add(m);added.push(m);}
+ return {audit:meta.audit,precomputed:true,dispose(){for(const m of added){m.removeFromParent();m.geometry.dispose();}for(const[node,position,delta]of transforms){if(delta)for(const child of node.children)child.position.sub(delta);node.position.copy(position);}for(const[mesh,old,g]of originals){mesh.geometry=old;g.dispose();}lining.dispose();}};
+}
 // Recover rear-door surface that an older split left on the fixed body.
 // Preserve all vertex fields and the closed exterior, including semantic paint coordinates.
 export function repairSilverRearDoors(r){
+ if(r.assemblyCache)return applyPrecomputedDoors(r);
  const T=r.T,lining=new T.MeshStandardMaterial({color:'#70695e',roughness:.8,side:T.DoubleSide}),model=r.root.getObjectByName('DoorPivot_LR').parent,rows=[[.48,-.80],[.60,-.82],[.72,-.90],[.84,-1.06],[.94,-1.23],[1.04,-1.30],[1.28,-1.30],[1.74,-1.18]],records=[],added=[],audit=[],hinges=[];
  const lerp=(a,b,t)=>a.map((x,i)=>x+(b[i]-x)*t);
  function clip(poly,f){let yes=[],no=[];for(let i=0;i<poly.length;i++){let a=poly[i],b=poly[(i+1)%poly.length],da=f(a),db=f(b);(da>=0?yes:no).push(a);if((da>=0)!==(db>=0)){let p=lerp(a,b,da/(da-db));yes.push(p);no.push(p);}}return [yes,no];}

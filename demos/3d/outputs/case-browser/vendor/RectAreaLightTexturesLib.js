@@ -1,14 +1,5 @@
-import {
-	ClampToEdgeWrapping,
-	DataTexture,
-	DataUtils,
-	FloatType,
-	HalfFloatType,
-	LinearFilter,
-	NearestFilter,
-	RGBAFormat,
-	UVMapping
-} from '../../suv-concept-restyle/vendor/three.module.js';
+// Local dependency injection: use the caller renderer engine; LTC tables unchanged.
+
 
 /**
  * Texture library for {@link RectAreaLight}. This class holds the LTC BRDF data
@@ -34,7 +25,8 @@ class RectAreaLightTexturesLib {
 	 *
 	 * @return {RectAreaLightTexturesLib}
 	 */
-	static init() {
+	static init(T) {
+ const {ClampToEdgeWrapping,DataTexture,DataUtils,FloatType,HalfFloatType,LinearFilter,NearestFilter,RGBAFormat,UVMapping}=T;
 
 		// source: https://github.com/selfshadow/ltc_code/tree/master/fit/results/ltc.js
 

@@ -1,4 +1,4 @@
-import {repairSilverRearDoors} from './silver-door-repair.js';
+import {repairSilverRearDoors} from './silver-door-repair.js?v=loading-v1-20261023';
 import {assembleSportsDoors} from './sports-door-assembly.js';
 export function mountVehicleDoors({r,win,doc,caseId,source,onChange}){
  const T=r.T,canvas=r.renderer.domElement,abort=new win.AbortController(),api=win.configurator||win.vehicleConfigurator;

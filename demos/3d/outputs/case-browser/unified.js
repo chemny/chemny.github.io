@@ -1,16 +1,15 @@
-import {mountVehicleInterior} from './vehicle-interior.js?v=silver-integrated-v1';
+import {mountVehicleInterior} from './vehicle-interior.js?v=loading-v1-20261023';
 import {measureVehicleGround} from './vehicle-ground.js';
-import {mountVehicleDoors} from './vehicle-doors.js';
+import {mountVehicleDoors} from './vehicle-doors.js?v=loading-v1-20261023';
 import {mountPendingOptions} from './pending-options.js';
 import {mountVehicleLighting} from './vehicle-lighting.js?v=lighting-balance-v3';
 import {mountViewMotion} from './view-motion.js?v=performance-v1';
 import {mountPartMotion} from './part-motion.js?v=performance-v1';
 import {dedupeSwatches} from './color-swatches.js?v=six-colors-v1';
 import {mountObjectOptions} from './object-options.js?v=part-motion-v1';
-import {createPresentation} from './presentation.js?v=lighting-balance-v3';
-import {mountAppearance,wheelPreview,paints,wheels,scenes,views} from './vehicle-options.js?v=paint-calibration-v1';
-import * as THREE from '../suv-concept-restyle/vendor/three.module.js';
-const {Box3,Vector3}=THREE;
+import {createPresentation} from './presentation.js?v=loading-v1-20261023';
+import {mountAppearance,wheelPreview,paints,wheels,scenes,views} from './vehicle-options.js?v=loading-v1-20261023';
+let THREE,Box3,Vector3;
 import {cases,mountCaseSelect,caseUrl} from './cases.js?v=silver-integrated-v1';
 const $=s=>document.querySelector(s),frame=$('#case-model');let vehicleInterior=null;let doorInteraction=null;let vehicleLighting=null;let sourceMode=new URLSearchParams(location.search).get('source'),current,doc,win,observer,loadSerial=0,bindings=[],customSummary={},restoreColors=[],sectionNo=0,partColor=null,appearance=null,toyPresentation=null,objectOptions=null,partMotion=null,motionRuntime=null,viewMotion=null;
 const labels={reference:'原图机位',front:'正面',side:'侧面',back:'背面',rear:'后侧',quarter:'前侧45°',top:'俯视',closed:'关闭',half:'半开',open:'展开',left:'左侧',right:'右侧',torso:'躯干',face:'面部',neck:'颈部','三分之四':'前侧45°',body:'身体',head:'头部',romper:'背带裤',hair:'头发','wing-left':'左翅膀','wing-right':'右翅膀','foot-left':'左脚','foot-right':'右脚',tail:'尾巴','tail-tip':'尾尖','crest-center':'中间冠羽','crest-left':'左冠羽','crest-right':'右冠羽',yellow:'主体颜色',orange:'喙与脚',paint:'车身颜色',vessel:'壶身',lid:'壶盖',base:'底座',knob_cap:'盖钮',lid_seat:'盖座',bore_lining:'壶嘴内壁'};
@@ -64,7 +63,7 @@ function setupUnifiedVehicle(){
  for(const [i,[id,label]]of views.entries()){button($('#views'),label,()=>{if(map[i]){const native=doc.querySelector(`#views button[data-id="${map[i]}"]`);selectVehicleView(map[i]);}else{const c=r.camera,target=r.controls.target.clone(),distance=c.position.distanceTo(target);c.position.copy(target).add(new r.T.Vector3(0,.16,1).normalize().multiplyScalar(distance));r.controls.update();}$('#views').querySelectorAll('button').forEach(b=>b.classList.toggle('active',b.textContent===label));appearance.apply();if(win.exteriorReview)fitSports();},i===0?'active':'');}
  if(doorInteraction)for(const item of doorInteraction.items){const b=button($('#model-tools'),item.label,()=>{doorInteraction.toggle(item.id);sync();});b.dataset.door=item.id;}
  const actionLabels=['左侧门','右侧门','前舱盖','尾门','车灯'];const nativeActions=[...doc.querySelectorAll('.vehicle-actions > button,#doors > button')];
- for(const [i,label]of actionLabels.entries()){if(doorInteraction&&i<2)continue;
+ for(const [i,label]of actionLabels.entries()){if(i===2||i===3)continue;if(doorInteraction&&i<2)continue;
  if(current==='silver-suv'&&i<2&&nativeActions.length===4){const pair=i===0?nativeActions.slice(0,2):nativeActions.slice(2,4);const adapter={click(){const open=pair.some(b=>b.classList.contains('active'));pair.forEach(b=>{if(b.classList.contains('active')===open)b.click();});},get disabled(){return pair.some(b=>b.disabled);},classList:{contains(){return pair.some(b=>b.classList.contains('active'));}},getAttribute(){return null;},querySelector(){return null;},textContent:label};proxy(adapter,$('#model-tools')).textContent=label;continue;}
  if(current==='silver-suv'&&i===4)continue;
  const src=current==='silver-suv'?null:nativeActions[i];if(src){const b=proxy(src,$('#model-tools'));b.textContent=label;if(i===4)b.dataset.action='lights';}else{/* Only supported actions are displayed. */}}
@@ -122,6 +121,7 @@ async function loadCase(id,push=false){if(id==='zeekr-9x'){frame.src='about:blan
  const started=performance.now();while(!(win.configurator?.getState().ready||win.vehicleConfigurator?.getState().ready||win.benchmarkReady||win.modelReview?.ready||win.exteriorReview?.ready||win.testView?.ready)){if(serial!==loadSerial)return;if(performance.now()-started>120000){throw Error('模型加载较慢，请重试。');}await new Promise(r=>setTimeout(r,150));}
  const runtime=win.modelReview||win.testView;
  if(runtime&&!runtime.T){const script=doc.createElement('script');script.type='module';script.textContent="import * as T from 'three'; (window.modelReview||window.testView).T=T;";doc.head.append(script);const start=performance.now();while(!runtime.T){if(serial!==loadSerial)return;if(performance.now()-start>10000){throw Error('模型展示接口加载失败，请重试。');}await new Promise(r=>setTimeout(r,50));}}
+ THREE=win.caseRuntime?.T||runtime?.T||await import('./runtime-deps/977c909f6fe0/three.module.js');({Box3,Vector3}=THREE);
  if(serial!==loadSerial)return;hideNative();motionRuntime=win.caseRuntime||win.modelReview||win.testView; document.body.dataset.viewAdapter=motionRuntime?.selectViewInstant?'instant':current==='yellow-sports-car'?'direct':'object';if(['silver-suv','suv-restyle','zeekr-9x'].includes(current)&&!motionRuntime?.selectViewInstant){document.body.dataset.viewAdapter='mismatch';throw Error('车辆视角接口版本不匹配，请重新加载页面。');}if(win.caseRuntime){window.unifiedGround=measureVehicleGround(win.caseRuntime,current);doorInteraction=mountVehicleDoors({r:win.caseRuntime,win,doc,caseId:current,source:sourceMode,onChange:()=>{if(appearance)sync();}});window.unifiedDoors=doorInteraction;vehicleInterior=mountVehicleInterior({r:win.caseRuntime,win,caseId:current,source:sourceMode,doors:doorInteraction});window.unifiedInterior=vehicleInterior;vehicleLighting=mountVehicleLighting(win.caseRuntime,current);}if(motionRuntime){partMotion=mountPartMotion(motionRuntime);viewMotion=mountViewMotion(motionRuntime);}for(const id of ['option-sections','summary'])$('#'+id).replaceChildren();sectionNo=0;if(win.configurator||win.vehicleConfigurator){if(current!=='zeekr-9x'&&win.caseRuntime)setupUnifiedVehicle();else setupVehicles();if(win.exteriorReview){win.addEventListener('resize',fitSports);fitSports();}}else setupStudies();setupFullReset();pending.apply();sync();observer=new win.MutationObserver(sync);observer.observe(doc.body,{subtree:true,childList:true,attributes:true,attributeFilter:['class','aria-pressed','disabled','src']});placeTools();await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));if(serial!==loadSerial)return;frame.style.visibility='visible';frame.setAttribute('aria-busy','false');$('#status').hidden=true;document.body.dataset.ready=current;
 }
 document.querySelectorAll('#model-source button').forEach(b=>b.addEventListener('click',()=>{if(sourceMode===b.dataset.source)return;sourceMode=b.dataset.source;show(current,true);}));

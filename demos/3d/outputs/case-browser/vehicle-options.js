@@ -1,4 +1,4 @@
-import {createPresentation} from './presentation.js?v=lighting-balance-v3';
+import {createPresentation} from './presentation.js?v=loading-v1-20261023';
 export const paints=[['default','默认颜色','#faf9f5'],['white','珍珠白','#e9e7df'],['silver','金属银','#9ca5ad'],['black','曜石黑','#161c22'],['blue','深海蓝','#163c61'],['red','赛车红','#ae1426'],['yellow','亮黄','#ffd20a']];
 export const wheels=[['wide','双色宽辐'],['split','运动双五辐'],['turbine','涡轮轮毂']];
 export const scenes=[['light','自然棚拍'],['architecture','浅色建筑'],['dark','深色展厅']];
