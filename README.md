@@ -1,5 +1,9 @@
 # Neo Chen 个人网站
 
+## Skill Manager 实战案例
+
+`project-skill-manager.html` 补充技能管理与项目空间清理的 1.5.0 实战案例，涵盖问题、产品流程、策略迭代、真实复测结果和适用范围。`skill-manager-case.css` 仅作用于该案例页；`assets/skill-manager-1.5.png` 来自 Skill Manager 仓库公开的演示截图。案例中的候选占用不表示已经释放空间，未公开本机项目路径或扫描明细。
+
 一个可直接部署至 GitHub Pages 的静态网站，无需安装依赖或构建。
 
 ## 本地预览
